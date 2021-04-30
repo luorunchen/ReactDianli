@@ -1,0 +1,112 @@
+#realTimeData {
+  margin-top: 20px;
+  .left {
+    height: calc(100vh - 140px);
+    border: 1px solid #118153;
+    color: #fff;
+    padding: 7px;
+    background-color: #062F2B;
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 15px;
+      height: 15px;
+      border-left: 3px solid #159C61;
+      border-bottom: 3px solid #159C61;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 15px;
+      height: 15px;
+      border-right: 3px solid #159C61;
+      border-bottom: 3px solid #159C61;
+    }
+    .leftCopy {
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 15px;
+        height: 15px;
+        border-left: 3px solid #159C61;
+        border-top: 3px solid #159C61;
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 15px;
+        height: 15px;
+        border-right: 3px solid #159C61;
+        border-top: 3px solid #159C61;
+      }
+      .bodyLeftInput {
+        height: 30px;
+        outline: none;
+        border: none;
+        background: #0F4037;
+        width: 100%;
+        color: #fff;
+        padding: 6px 12px;
+      }
+    }
+  }
+  .right {
+    height: calc(100vh - 140px);
+    border: 1px solid #118153;
+    color: #fff;
+    padding: 7px;
+    background-color: #062F2B;
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 15px;
+      height: 15px;
+      border-left: 3px solid #159C61;
+      border-bottom: 3px solid #159C61;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 15px;
+      height: 15px;
+      border-right: 3px solid #159C61;
+      border-bottom: 3px solid #159C61;
+    }
+    .rightCopy {
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 15px;
+        height: 15px;
+        border-left: 3px solid #159C61;
+        border-top: 3px solid #159C61;
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 15px;
+        height: 15px;
+        border-right: 3px solid #159C61;
+        border-top: 3px solid #159C61;
+      }
+    }
+  }
+}

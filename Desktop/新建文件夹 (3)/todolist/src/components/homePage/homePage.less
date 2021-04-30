@@ -1,0 +1,257 @@
+@img: '../../assets/images/background.png';
+.homePage {
+  margin-top: 20px;
+  color: #fff; // .ant-row {
+  //   padding-left: 20px;
+  // }
+  .ant-timeline-item-head-custom {
+    background: #062F2B;
+  }
+  .anticon svg {
+    width: 16px;
+    height: 16px;
+  }
+  .ant-timeline-item-tail {
+    border-left: 2px solid #135647
+  }
+  .ant-timeline-item {
+    padding-bottom: 10px;
+    font-size: 15px;
+    p {
+      margin-bottom: 10px;
+    }
+  }
+  .info {
+    height: 260px;
+    border: 1px solid #118153;
+    color: #fff;
+    padding: 7px;
+    background-color: #062F2B;
+    position: relative;
+    .infoTitle {
+      width: 60%;
+      height: 25px;
+      line-height: 25px;
+      background-image: linear-gradient(to right, #1a5f52, #062f2b);
+      margin-left: 10px;
+      padding-left: 15px;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    .ant-table {
+      padding-left: 10px;
+      background: #062F2B;
+      box-sizing: border-box;
+      font-size: 13px;
+    }
+    .ant-table-thead {
+      font-size: 13px;
+    }
+    .ant-table-thead>tr>th {
+      color: white; // background: #062F2B;
+      border: none;
+      text-align: center;
+      background: #0F4037;
+    } //修改列表文字、背景颜色  
+    .ant-table-tbody {
+      border: none;
+      color: white;
+      background: #062F2B;
+      text-align: center;
+    }
+    .ant-table-tbody>tr>td {
+      border: none;
+    }
+    .ant-table-tbody>tr>td {
+      background: rgba(255, 255, 255, 0) !important;
+    }
+    .ant-table-tbody>tr>td:hover {
+      background: rgb(255, 255, 255) !important;
+    } //去除鼠标悬浮的背景色  
+    .ant-table-tbody>tr>td {
+      background: rgba(255, 255, 255, 0) !important;
+    }
+    .ant-table-tbody>tr>td:hover {
+      background: rgba(255, 255, 255, 0) !important;
+    }
+    #equipmentStatistics_left {
+      height: 210px;
+      border-right: 2px solid #ddd; // border-image: -webkit-linear-gradient(#F80, #2ED) 20 20;
+      // border-image: -moz-linear-gradient(#F80, #2ED) 20 20;
+      // border-image: -o-linear-gradient(#F80, #2ED) 20 20;
+      border-image: linear-gradient(#050e0c, #159960, #050505) 20 20;
+    }
+    #equipmentStatistics_right {
+      height: 210px;
+    }
+    #equipmentStatistics_right {
+      height: 210px;
+    }
+    #top {
+      height: 180px;
+    }
+  }
+  .infoAlarm {
+    height: calc(100vh - 140px);
+    border: 1px solid #118153;
+    color: #fff;
+    background-color: #062F2B;
+    position: relative;
+    padding: 7px;
+    .infoTitle {
+      width: 60%;
+      height: 25px;
+      line-height: 25px;
+      background-image: linear-gradient(to right, #1a5f52, #062f2b);
+      margin-left: 10px;
+      padding-left: 15px;
+      font-size: 16px;
+    }
+    .scroll {
+      height: calc(100vh - 190px);
+      padding-left: 3px;
+      overflow: auto;
+    }
+  }
+  .infoAlarm::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 15px;
+    height: 15px;
+    border-left: 3px solid #159C61;
+    border-bottom: 3px solid #159C61;
+  }
+  .info::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 15px;
+    height: 15px;
+    border-left: 3px solid #159C61;
+    border-bottom: 3px solid #159C61;
+  }
+  .infoCopy::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 15px;
+    height: 15px;
+    border-right: 3px solid #159C61;
+    border-bottom: 3px solid #159C61;
+  }
+  .infoCopy::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    border-right: 3px solid #159C61;
+    border-top: 3px solid #159C61;
+  }
+  .infoAlarmCopy::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 15px;
+    height: 15px;
+    border-right: 3px solid #159C61;
+    border-bottom: 3px solid #159C61;
+  }
+  .infoAlarmCopy::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    border-right: 3px solid #159C61;
+    border-top: 3px solid #159C61;
+  }
+  .info::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    border-left: 3px solid #159C61;
+    border-top: 3px solid #159C61;
+  }
+  .infoAlarm::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    border-left: 3px solid #159C61;
+    border-top: 3px solid #159C61;
+  }
+  .infoMap {
+    height: 550px;
+    border: 1px solid #118153;
+    color: #fff;
+    padding: 7px;
+    background-color: #062F2B;
+    position: relative;
+    .infoTitle {
+      width: 60%;
+      height: 25px;
+      line-height: 25px;
+      background-image: linear-gradient(to right, #1a5f52, #062f2b);
+      margin-left: 10px;
+      padding-left: 15px;
+      font-size: 16px;
+    }
+    #map {
+      margin-top: 10px;
+      height: 500px;
+    }
+  }
+  .infoMap::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 15px;
+    height: 15px;
+    border-left: 3px solid #159C61;
+    border-bottom: 3px solid #159C61;
+  }
+  .infoMapCopy::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    border-left: 3px solid #159C61;
+    border-top: 3px solid #159C61;
+  }
+  .infoMap::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 15px;
+    height: 15px;
+    border-right: 3px solid #159C61;
+    border-bottom: 3px solid #159C61;
+  }
+  .infoMapCopy::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    border-right: 3px solid #159C61;
+    border-top: 3px solid #159C61;
+  }
+}
