@@ -8,9 +8,11 @@ import Login from '../components/Login/login.jsx'
 import AlarmInfo from '../components/AlarmInfo/AlarmInfo.jsx'
 import monitoringCenter from '../components/monitoringCenter/monitoringCenter.jsx'
 import PersonalCenter from '../components/PersonalCenter/PersonalCenter.jsx'
+import MonitorBackground from '../components/MonitorBackground/MonitorBackground.jsx'
 function router() {
   return (
     <>
+      <Route path="/" component={Login} exact />
       <Route path="/login" component={Login} />
       <Route path="/home" component={Home} />
       <Route path="/home/AlarmInfo" component={AlarmInfo} />
@@ -20,6 +22,7 @@ function router() {
       <Route path="/home/realTimeData" component={realTimeData} />
       <Route path="/home/monitoringCenter" component={monitoringCenter} />
       <Route path="/home/PersonalCenter" component={PersonalCenter} />
+      <Route path="/home/MonitorBackground" component={MonitorBackground} />
     </>);
 }
 

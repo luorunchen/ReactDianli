@@ -5,7 +5,6 @@ export default class monitoringCenter extends Component {
   render() {
     return (
       <div id="monitoringCenter">
-        {" "}
         <Row gutter={20}>
           <Col span={5}>
             <div className="left">

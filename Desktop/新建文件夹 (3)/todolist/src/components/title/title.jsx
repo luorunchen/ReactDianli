@@ -12,6 +12,33 @@ export default class title extends Component {
     };
   }
 
+  componentDidMount() {
+    switch (this.props.location.pathname) {
+      case "/home/realTimeData":
+        this.setState({
+          titleName: "realTimeData",
+        });
+        break;
+      case "/home/homePage":
+        this.setState({
+          titleName: "homePage",
+        });
+        break;
+      case "/home/AlarmInfo":
+        this.setState({
+          titleName: "homeAlarmInformationPage",
+        });
+        break;
+      case "/home/MonitorBackground":
+        this.setState({
+          titleName: "MonitorBackground",
+        });
+        break;
+
+      default:
+        break;
+    }
+  }
   del = (param) => {
     // console.log(name, param, 222222222222);
     return () => {
@@ -99,19 +126,22 @@ export default class title extends Component {
             </Col>
 
             <Col span={8}>
-              <p>国家电网安防一体化监测平台</p>
+              <p>新能源电力安防一体化监测平台</p>
             </Col>
             <Col span={8}>
-              <span
-                onClick={this.del("monitoringCenter")}
-                className={
-                  this.state.titleName == "monitoringCenter"
-                    ? "falseBg"
-                    : "trueBg"
-                }
-              >
-                监控中心
-              </span>
+              <Link to="/home/MonitorBackground">
+                <span
+                  onClick={this.del("MonitorBackground")}
+                  className={
+                    this.state.titleName == "MonitorBackground"
+                      ? "falseBg"
+                      : "trueBg"
+                  }
+                >
+                  监控中心
+                </span>
+              </Link>
+
               <span
                 onClick={this.del("statisticalInformation")}
                 className={
