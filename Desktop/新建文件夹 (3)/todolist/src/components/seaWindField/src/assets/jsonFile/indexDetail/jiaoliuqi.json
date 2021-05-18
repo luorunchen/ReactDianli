@@ -1,0 +1,138 @@
+[
+  {
+    "name": "变流器温度",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valBLQ_TEMP"
+  },
+  {
+    "name": "A相相电压",
+    "value": 0,
+    "unit": "V",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valCE20001"
+  },
+  {
+    "name": "B相相电压",
+    "value": 0,
+    "unit": "V",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valCE20002"
+  },
+  {
+    "name": "C相相电压",
+    "value": 0,
+    "unit": "V",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valCE20003"
+  },
+  {
+    "name": "A相电流",
+    "value": 0,
+    "unit": "A",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valCE10001"
+  },
+  {
+    "name": "B相电流",
+    "value": 0,
+    "unit": "A",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valCE10002"
+  },
+  {
+    "name": "C相电流",
+    "value": 0,
+    "unit": "A",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valCE10003"
+  },
+  {
+    "name": "功率因数",
+    "value": 0,
+    "unit": "",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valCE401"
+  },
+  {
+    "name": "频率",
+    "value": 0,
+    "unit": "Hz",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valFRE"
+  },
+  {
+    "name": "LVRT事件激活",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valLVRT_ACT"
+  },
+  {
+    "name": "变流器HVRT激活",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": ""
+  },
+  {
+    "name": "高电压穿越HVRT事件激活",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": ""
+  },
+  {
+    "name": "变流器准备好",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valCON_READY"
+  },
+  {
+    "name": "并网开关闭合",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valGRID_W_C"
+  },
+  {
+    "name": "变流器准备就绪",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valCON_ZBJX"
+  },
+  {
+    "name": "变流器正在运行",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valCON_RUN"
+  },
+  {
+    "name": "变流器正在充电",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valCON_CHARG"
+  }
+]

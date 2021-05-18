@@ -1,0 +1,38 @@
+[
+  {
+    "name": "全场风机平均风速",
+    "tag": "WSPEED"
+  },
+  {
+    "name": "全场风机总有功功率",
+    "tag": "CE301"
+  },
+  {
+    "name": "无功功率",
+    "tag": "CE302"
+  },
+  {
+    "name": "总发电量",
+    "tag": "CE901FD"
+  },
+  {
+    "name": "日发电量",
+    "tag": "DCE901FD"
+  },
+  {
+    "name": "全场风机总有功功率设定",
+    "tag": "CE301SET"
+  },
+  {
+    "name": "工作模式",
+    "tag": "WORKMOD"
+  },
+  {
+    "name": "限功运行状态",
+    "tag": "_RUNSTA_XG"
+  },
+  {
+    "name": "故障状态",
+    "tag": "_FAUL_STA"
+  }
+]

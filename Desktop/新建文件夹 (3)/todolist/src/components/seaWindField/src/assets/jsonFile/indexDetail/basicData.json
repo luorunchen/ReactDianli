@@ -1,0 +1,30 @@
+[
+  {
+    "name": "风机状态",
+    "tag": "WORKMOD"
+  },
+  {
+    "name": "有功功率",
+    "tag": "CE301"
+  },
+  {
+    "name": "风速",
+    "tag": "WSPEED"
+  },
+  {
+    "name": "风向",
+    "tag": "WDIR2"
+  },
+  {
+    "name": "发电量",
+    "tag": "CE901FD"
+  },
+  {
+    "name": "限功",
+    "tag": "_RUNSTA_XG"
+  },
+  {
+    "name": "故障",
+    "tag": "_FAUL_STA"
+  }
+]

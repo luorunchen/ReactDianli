@@ -61,6 +61,16 @@ export function alarmTopByDay(username) {
     }
   })
 }
+//7天报警分析
+export function projectHome(username) {
+  return service({
+    url: `/projectHome`,
+    method: 'GET',
+    params: {
+      username
+    }
+  })
+}
 
 // ----------------------------------------↑首页部分↑-------------------------------------------------------
 
@@ -122,4 +132,54 @@ export function alarmInfo(username, code, pno, pageSize) {
     }
   })
 }
+export function jkAlarmData(username) {
+  return service({
+    url: `/jkAlarmData`,
+    method: 'GET',
+    params: {
+      username
+    }
+  })
+}
+export function AlarmCount(username) {
+  return service({
+    url: `/AlarmCount`,
+    method: 'GET',
+    params: {
+      username
+    }
+  })
+}
 // ----------------------------------------↑报警信息↑-------------------------------------------------------
+//用户管理
+export function getRegister(username) {
+  return service({
+    url: `/getRegister`,
+    method: 'GET',
+    params: {
+      username
+    }
+  })
+}
+//权限管理
+export function getRole(username) {
+  return service({
+    url: `/getRole`,
+    method: 'GET',
+    params: {
+      username
+    }
+  })
+}
+// //项目管理
+// export function getProject(username) {
+//   return service({
+//     url: `/getProject`,
+//     method: 'GET',
+//     params: {
+//       username
+//     }
+//   })
+// }
+
+// ----------------------------------------↑监控中心↑-------------------------------------------------------

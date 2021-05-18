@@ -1,0 +1,38 @@
+[
+  {
+    "name": "风机状态",
+    "tag": "WORKMOD"
+  },
+  {
+    "name": "风速",
+    "tag": "WSPEED"
+  },
+  {
+    "name": "发电机转速",
+    "tag": "FDJ_SPEED"
+  },
+  {
+    "name": "有功功率设定",
+    "tag": "CE301SET"
+  },
+  {
+    "name": "有功功率设定反馈",
+    "tag": "CE301S_B"
+  },
+  {
+    "name": "无功功率设定",
+    "tag": "CE302SET"
+  },
+  {
+    "name": "无功功率设定反馈",
+    "tag": "CE302S_B"
+  },
+  {
+    "name": "限功运行状态",
+    "tag": "_RUNSTA_XG"
+  },
+  {
+    "name": "故障状态",
+    "tag": "_FAUL_STA"
+  }
+]

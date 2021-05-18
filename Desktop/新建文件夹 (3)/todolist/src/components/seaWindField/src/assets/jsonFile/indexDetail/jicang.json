@@ -1,0 +1,210 @@
+[
+  {
+    "name": "风速",
+    "value": 0,
+    "unit": "m/s",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valWSPEED"
+  },
+  {
+    "name": "1#风速计瞬时风速",
+    "value": 0,
+    "unit": "m/s",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valINS_SPD1"
+  },
+  {
+    "name": "10min平均风速",
+    "value": 0,
+    "unit": "m/s",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valAVE_SPD10MIN"
+  },
+  {
+    "name": "环境温度",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valAMB_TEM"
+  },
+  {
+    "name": "偏航方位角",
+    "value": 0,
+    "unit": "°",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valANGLE_PH"
+  },
+  {
+    "name": "60s平均风速",
+    "value": 0,
+    "unit": "m/s",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valAVE_SPD60S"
+  },
+  {
+    "name": "2#风速计瞬时风速",
+    "value": 0,
+    "unit": "m/s",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valINS_SPD2"
+  },
+  {
+    "name": "1#风向仪瞬时风向",
+    "value": 0,
+    "unit": "°",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valWDIR3"
+  },
+  {
+    "name": "瞬时风向",
+    "value": 0,
+    "unit": "°",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valWDIR2"
+  },
+  {
+    "name": "2#风向仪瞬时风向",
+    "value": 0,
+    "unit": "°",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valWDIR4"
+  },
+  {
+    "name": "机舱振动有效值",
+    "value": 0,
+    "unit": "",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valE_RM_VIB"
+  },
+  {
+    "name": "机舱X方向振动",
+    "value": 0,
+    "unit": "",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valE_RM_VIB_X"
+  },
+  {
+    "name": "机舱Y方向振动",
+    "value": 0,
+    "unit": "",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valE_RM_VIB_Y"
+  },
+  {
+    "name": "机舱XY方向振动最大值",
+    "value": 0,
+    "unit": "",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valE_RM_VIB_MAX"
+  },
+  {
+    "name": "机舱温度",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valE_RM_TEM"
+  },
+  {
+    "name": "机舱控制柜温度",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valE_RM_PLCTEM"
+  },
+  {
+    "name": "塔基温度",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valTOWER_TEM"
+  },
+  {
+    "name": "偏航电机刹车",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valYAR_DJ_BRA"
+  },
+  {
+    "name": "偏航刹车全部释放",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valYAR_A_FREE"
+  },
+  {
+    "name": "偏航锁定",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valYAR_LOCK"
+  },
+  {
+    "name": "逆时针偏航状态",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valYAR_STA_N"
+  },
+  {
+    "name": "顺时针偏航状态",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valYAR_STA_S"
+  },
+  {
+    "name": "右解缆",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valCASTOFF_R"
+  },
+  {
+    "name": "左解缆",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valCASTOFF_L"
+  },
+  {
+    "name": "偏航液压刹车打开",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valYAR_BRA_O"
+  },
+  {
+    "name": "无条件解缆激活",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valACTI_UND"
+  }
+]

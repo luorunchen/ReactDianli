@@ -1,0 +1,300 @@
+[
+  {
+    "NOTE1": "type---0:做差；1：最大；2：最小；3：平均；4：求和；5：公式",
+    "NOTE2": "sumType---0:求和；1：最大；2：最小；3：平均",
+    "id": "0",
+    "name": "发电量（kWh）",
+    "type": 4,
+    "point": "CE901FD_H",
+    "cal": "",
+    "sumType": 0
+  },
+  {
+    "id": "1",
+    "name": "耗电量（kWh）",
+    "type": 4,
+    "point": "CE901HD_H",
+    "cal": "",
+    "sumType": 0
+  },
+  {
+    "id": "2",
+    "name": "风机可利用率（%）",
+    "type": 5,
+    "point": "SP_TIME04_H|统计时间",
+    "cal": "(1-(p1/p2))*100",
+    "sumType": 3
+  },
+  {
+    "id": "3",
+    "name": "最小风速（m/s）",
+    "type": 2,
+    "point": "FS_H_MIN",
+    "cal": "",
+    "sumType": 2
+  },
+  {
+    "id": "4",
+    "name": "最大风速（m/s）",
+    "type": 1,
+    "point": "FS_H_MAX",
+    "cal": "",
+    "sumType": 1
+  },
+  {
+    "id": "5",
+    "name": "平均风速（m/s）",
+    "type": 3,
+    "point": "FS_H_AVG",
+    "cal": "",
+    "sumType": 3
+  },
+  {
+    "id": "6",
+    "name": "最小有功功率（kW）",
+    "type": 2,
+    "point": "CE301_H_MIN",
+    "cal": "",
+    "sumType": 2
+  },
+  {
+    "id": "7",
+    "name": "最大有功功率（kW）",
+    "type": 1,
+    "point": "CE301_H_MAX",
+    "cal": "",
+    "sumType": 1
+  },
+  {
+    "id": "8",
+    "name": "平均有功功率（kW）",
+    "type": 3,
+    "point": "CE301_H_AVG",
+    "cal": "",
+    "sumType": 3
+  },
+  {
+    "id": "9",
+    "name": "最小无功功率（kVar）",
+    "type": 2,
+    "point": "CE302_H_MIN",
+    "cal": "",
+    "sumType": 2
+  },
+  {
+    "id": "10",
+    "name": "最大无功功率（kVar）",
+    "type": 1,
+    "point": "CE302_H_MAX",
+    "cal": "",
+    "sumType": 1
+  },
+  {
+    "id": "11",
+    "name": "平均无功功率（kVar）",
+    "type": 3,
+    "point": "CE302_H_AVG",
+    "cal": "",
+    "sumType": 3
+  },
+  {
+    "id": "12",
+    "name": "最低环境温度（°）",
+    "type": 3,
+    "point": "HJ_TEM_H_MIN",
+    "cal": "",
+    "sumType": 2
+  },
+  {
+    "id": "13",
+    "name": "最高环境温度（°）",
+    "type": 1,
+    "point": "HJ_TEM_H_MAX",
+    "cal": "",
+    "sumType": 1
+  },
+  {
+    "id": "14",
+    "name": "平均环境温度（°）",
+    "type": 3,
+    "point": "HJ_TEM_H_AVG",
+    "cal": "",
+    "sumType": 3
+  },
+  {
+    "id": "15",
+    "name": "有效风时数（h）",
+    "type": 4,
+    "point": "EFFHOURS_H",
+    "cal": "",
+    "sumType": 0
+  },
+  {
+    "id": "16",
+    "name": "有效风时效率（%）",
+    "type": 5,
+    "point": "EFFHOURS_H|统计时间",
+    "cal": "p1/p2*100",
+    "sumType": 3
+  },
+  {
+    "id": "17",
+    "name": "风机可用小时数（h）",
+    "type": 5,
+    "point": "RUNTIME02_H|SP_TIME04_H|SP_TIME05_H",
+    "cal": "p1+p2-p3",
+    "sumType": 0
+  },
+  {
+    "id": "18",
+    "name": "风机正常运行小时数（h）",
+    "type": 4,
+    "point": "RUNTIME02_H",
+    "cal": "",
+    "sumType": 0
+  },
+  {
+    "id": "19",
+    "name": "发电小时数（h）",
+    "type": 4,
+    "point": "POWERTIME_H",
+    "cal": "",
+    "sumType": 0
+  },
+  {
+    "id": "20",
+    "name": "停运小时数（h）",
+    "type": 5,
+    "point": "统计时间|RUNTIME02_H",
+    "cal": "p1-p2",
+    "sumType": 0
+  },
+  {
+    "id": "21",
+    "name": "故障停机小时数（h）",
+    "type": 4,
+    "point": "SP_TIME04_H",
+    "cal": "",
+    "sumType": 0
+  },
+  {
+    "id": "22",
+    "name": "风机自身故障停机小时数（h）",
+    "type": 4,
+    "point": "SP_TIME05_H",
+    "cal": "",
+    "sumType": 0
+  },
+  {
+    "id": "23",
+    "name": "非风机自身故障停机小时数（h）",
+    "type": 5,
+    "point": "SP_TIME04_H|SP_TIME05_H",
+    "cal": "p1-p2",
+    "sumType": 0
+  },
+  {
+    "id": "24",
+    "name": "维护小时数（h）",
+    "type": 4,
+    "point": "SER_TIME_H",
+    "cal": "",
+    "sumType": 0
+  },
+  {
+    "id": "25",
+    "name": "故障停机次数",
+    "type": 4,
+    "point": "FAULSTA_H",
+    "cal": "",
+    "sumType": 0
+  },
+  {
+    "id": "26",
+    "name": "风机自身故障停机次数",
+    "type": 4,
+    "point": "FAUL_STOP_H",
+    "cal": "",
+    "sumType": 0
+  },
+  {
+    "id": "27",
+    "name": "非风机自身故障停机次数",
+    "type": 5,
+    "point": "FAULSTA_H|FAUL_STOP_H",
+    "cal": "p1-p2",
+    "sumType": 0
+  },
+  {
+    "id": "28",
+    "name": "维护次数",
+    "type": 4,
+    "point": "WORKMOD_H",
+    "cal": "",
+    "sumType": 0
+  },
+  {
+    "id": "29",
+    "name": "并网次数",
+    "type": 4,
+    "point": "GRID_W_OL_H",
+    "cal": "",
+    "sumType": 0
+  },
+  {
+    "id": "30",
+    "name": "偏航次数",
+    "type": 5,
+    "point": "YAR_STA_N_H|YAR_STA_S_H",
+    "cal": "p1+p2",
+    "sumType": 0
+  },
+  {
+    "id": "31",
+    "name": "左偏次数",
+    "type": 4,
+    "point": "YAR_STA_N_H",
+    "cal": "",
+    "sumType": 0
+  },
+  {
+    "id": "32",
+    "name": "右偏次数",
+    "type": 4,
+    "point": "YAR_STA_S_H",
+    "cal": "",
+    "sumType": 0
+  },
+  {
+    "id": "33",
+    "name": "满发小时数（h）",
+    "type": 5,
+    "point": "CE901FD_H",
+    "cal": "p1/2000",
+    "sumType": 0
+  },
+  {
+    "id": "34",
+    "name": "人工停机小时数（h）",
+    "type": 4,
+    "point": "STOPTIME01_H",
+    "cal": "",
+    "sumType": 0
+  },
+  {
+    "id": "35",
+    "name": "环境温度过低停机小时数（h）",
+    "type": 4,
+    "point": "STOPTIME02_H",
+    "cal": "",
+    "sumType": 0
+  },
+  {
+    "id": "36",
+    "name": "风暴停机小时数（h）",
+    "type": 4,
+    "point": "STOPTIME03_H",
+    "cal": "",
+    "sumType": 0
+  }
+]

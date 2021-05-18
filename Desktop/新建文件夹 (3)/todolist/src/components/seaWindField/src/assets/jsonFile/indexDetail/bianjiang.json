@@ -1,0 +1,338 @@
+[
+  {
+    "name": "叶片1实际桨距角",
+    "value": 0,
+    "unit": "°",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valCV10002"
+  },
+  {
+    "name": "叶片应变浆角度",
+    "value": 0,
+    "unit": "°",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valCV10001"
+  },
+  {
+    "name": "叶片2实际浆距角",
+    "value": 0,
+    "unit": "°",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valCV10003"
+  },
+  {
+    "name": "叶片3实际浆距角",
+    "value": 0,
+    "unit": "°",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valCV10004"
+  },
+  {
+    "name": "叶片1冗余浆角",
+    "value": 0,
+    "unit": "°",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valCV10005"
+  },
+  {
+    "name": "叶片2冗余浆角",
+    "value": 0,
+    "unit": "°",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valCV10006"
+  },
+  {
+    "name": "叶片3冗余浆角",
+    "value": 0,
+    "unit": "°",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valCV10007"
+  },
+  {
+    "name": "叶片1实际变桨速率",
+    "value": 0,
+    "unit": "°/s",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valBJ_SPEED1"
+  },
+  {
+    "name": "叶片2实际变桨速率",
+    "value": 0,
+    "unit": "°/s",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valBJ_SPEED2"
+  },
+  {
+    "name": "叶片3实际变桨速率",
+    "value": 0,
+    "unit": "°/s",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valBJ_SPEED3"
+  },
+  {
+    "name": "叶片1驱动电流",
+    "value": 0,
+    "unit": "A",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valDRI_CUR1"
+  },
+  {
+    "name": "叶片2驱动电流",
+    "value": 0,
+    "unit": "A",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valDRI_CUR2"
+  },
+  {
+    "name": "叶片3驱动电流",
+    "value": 0,
+    "unit": "A",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valDRI_CUR3"
+  },
+  {
+    "name": "叶片1电机温度",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valMOTOR_TEM1"
+  },
+  {
+    "name": "叶片2电机温度",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valMOTOR_TEM2"
+  },
+  {
+    "name": "叶片3电机温度",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valMOTOR_TEM3"
+  },
+  {
+    "name": "叶片1控制柜温度",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valKZG_TEMP1"
+  },
+  {
+    "name": "叶片2控制柜温度",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valKZG_TEMP2"
+  },
+  {
+    "name": "叶片3控制柜温度",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valKZG_TEMP3"
+  },
+  {
+    "name": "变桨轮毂温度",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valBJL_TEMP"
+  },
+  {
+    "name": "叶片1散热器温度",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valSRQ_TEMP1"
+  },
+  {
+    "name": "叶片2散热器温度",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valSRQ_TEMP2"
+  },
+  {
+    "name": "叶片3散热器温度",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valSRQ_TEMP3"
+  },
+  {
+    "name": "叶片1后备电源温度",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valHBDY_TEMP1"
+  },
+  {
+    "name": "叶片2后备电源温度",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valHBDY_TEMP2"
+  },
+  {
+    "name": "叶片3后备电源温度",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valHBDY_TEMP3"
+  },
+  {
+    "name": "叶片1后备电源电压",
+    "value": 0,
+    "unit": "V",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valHBDY_VOL1"
+  },
+  {
+    "name": "叶片2后备电源电压",
+    "value": 0,
+    "unit": "V",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valHBDY_VOL2"
+  },
+  {
+    "name": "叶片3后备电源电压",
+    "value": 0,
+    "unit": "V",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valHBDY_VOL3"
+  },
+  {
+    "name": "变桨中控柜温度",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valBJZK_TEM"
+  },
+  {
+    "name": "1#叶片准备状态",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valS_STA_BL1"
+  },
+  {
+    "name": "2#叶片准备状态",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valS_STA_BL2"
+  },
+  {
+    "name": "3#叶片准备状态",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valS_STA_BL3"
+  },
+  {
+    "name": "1#叶片变桨正常运行状态",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valR_STA_BL1"
+  },
+  {
+    "name": "2#叶片变桨正常运行状态",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valR_STA_BL2"
+  },
+  {
+    "name": "3#叶片变桨正常运行状态",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valR_STA_BL3"
+  },
+  {
+    "name": "1#叶片变桨手动模式",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valMAN_M_BL1"
+  },
+  {
+    "name": "2#叶片变桨手动模式",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valMAN_M_BL2"
+  },
+  {
+    "name": "3#叶片变桨手动模式",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valMAN_M_BL3"
+  },
+  {
+    "name": "1#叶片变桨紧急停机模式",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valEME_M_BL1"
+  },
+  {
+    "name": "2#叶片变桨紧急停机模式",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valEME_M_BL2"
+  },
+  {
+    "name": "3#叶片变桨紧急停机模式",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valEME_M_BL3"
+  }
+]

@@ -1,6 +1,7 @@
 import React, { Component, useState } from "react";
 import { Row, Col, Tree, Card, Divider, List } from "antd";
 import { ClockCircleOutlined } from "@ant-design/icons";
+import TerminalInformation from "../TerminalInformation/TerminalInformation";
 import * as echarts from "echarts";
 import "./realTimeData.css";
 import img from "../../assets/images/供电公司.png";
@@ -20,6 +21,7 @@ export default class realTimeData extends Component {
       Hierarchy: 1,
       showState: 1,
       getDeviceRealTimeList: [],
+      getDid: "2",
       title: "新能源电力安防一体化监测平台",
     };
   }
@@ -75,6 +77,7 @@ export default class realTimeData extends Component {
       });
     }
     if (this.state.Hierarchy == 2) {
+      console.log(did, 444444444444);
       getDeviceRealTime(userName, did).then((res) => {
         res.data.alarms.forEach((el) => {
           el.tiem = res.data.deviceInfo.heartbeatTime;
@@ -239,7 +242,8 @@ export default class realTimeData extends Component {
         showState: 2,
       });
     }
-    // //////console.log(this.state.Hierarchy);
+    this.state.getDid = did;
+    console.log(this.state.getDid, 777);
   };
 
   render() {
@@ -385,100 +389,7 @@ export default class realTimeData extends Component {
                         );
                       })
                     ) : (
-                      <Col span={24}>
-                        <Row gutter={10}>
-                          <Col span={7}>
-                            <div className="terminalInformationTop">
-                              <div className="infoTitle">终端信息</div>
-                              <div className="scroll">
-                                <p>
-                                  <span>设备名称:</span>
-                                  {this.state.getDeviceRealTimeList.dname}
-                                </p>
-                                <p>
-                                  <span>报警状态:</span>
-                                  {this.state.getDeviceRealTimeList.dname}
-                                </p>
-                                <p>
-                                  <span>设备类型:</span>
-                                  {this.state.getDeviceRealTimeList.type}
-                                </p>
-                                <p>
-                                  <span>设备编号:</span>
-                                  {this.state.getDeviceRealTimeList.imei}
-                                </p>
-                                <p>
-                                  <span>创建时间:</span>
-                                  {
-                                    this.state.getDeviceRealTimeList
-                                      .heartbeatTime
-                                  }
-                                </p>
-                              </div>
-                            </div>
-                            <div className="terminalInformationBottom">
-                              <div className="infoTitle">传感器数据</div>
-                              <List
-                                itemLayout="horizontal"
-                                dataSource={data}
-                                renderItem={(item) => (
-                                  <List.Item>
-                                    <List.Item.Meta
-                                      title={
-                                        <span href="https://ant.design">
-                                          {item.title}
-                                        </span>
-                                      }
-                                      description={
-                                        <div>
-                                          <ClockCircleOutlined />
-                                          {item.tiem}
-                                        </div>
-                                      }
-                                    />
-                                    <div>{item.num}</div>
-                                  </List.Item>
-                                )}
-                              />
-                              <div className="infoTitle">报警</div>
-                              <List
-                                itemLayout="horizontal"
-                                dataSource={
-                                  this.state.getDeviceRealTimeListAlarms
-                                }
-                                renderItem={(item) => (
-                                  <List.Item>
-                                    <List.Item.Meta
-                                      title={
-                                        <span href="https://ant.design">
-                                          {item.typeName}
-                                        </span>
-                                      }
-                                      description={
-                                        <div>
-                                          <ClockCircleOutlined />
-                                          {item.tiem}
-                                        </div>
-                                      }
-                                    />
-                                    <div>{item.alarmValue}</div>
-                                  </List.Item>
-                                )}
-                              />
-                            </div>
-                          </Col>
-                          <Col span={17}>
-                            <div className="terminalInformationTopEcart">
-                              <div className="infoTitle">湿度趋势变化图</div>
-                              <div id="ecartTop"></div>
-                            </div>
-                            <div className="terminalInformationBottomEcart">
-                              <div className="infoTitle">温度趋势变化图</div>
-                              <div id="ecartBottom"></div>
-                            </div>
-                          </Col>
-                        </Row>
-                      </Col>
+                      <TerminalInformation getDid={this.state.getDid} />
                     )}
                   </Row>
                 </div>

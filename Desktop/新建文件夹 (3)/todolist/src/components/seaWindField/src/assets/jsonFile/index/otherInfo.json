@@ -1,0 +1,26 @@
+[
+  {
+    "name": "功率因数",
+    "tag": "CE401"
+  },
+  {
+    "name": "齿轮箱油温度（°C）",
+    "tag": "CLX_TEMP3"
+  },
+  {
+    "name": "齿轮箱进口压力（bar）",
+    "tag": "CLX_PRE1"
+  },
+  {
+    "name": "偏航方向角",
+    "tag": "ANGLE_PH"
+  },
+  {
+    "name": "顺时针偏航状态",
+    "tag": "YAR_STA_S"
+  },
+  {
+    "name": "逆时针偏航状态",
+    "tag": "YAR_STA_N"
+  }
+]

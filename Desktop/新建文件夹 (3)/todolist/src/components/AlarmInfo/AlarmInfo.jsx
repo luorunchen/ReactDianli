@@ -3,7 +3,6 @@ import { Row, Col, Tree, Card, Divider, Button } from "antd";
 import "./Alarm.css";
 import Demo from "../Demo/Demp";
 import img from "../../assets/images/供电公司.png";
-import {} from "../../api/index.js";
 export default class realTimeData extends Component {
   constructor(props) {
     super(props);

@@ -1,0 +1,658 @@
+[
+  {
+    "name": "有功功率设定",
+    "tag": "CE301SET"
+  },
+  {
+    "name": "无功功率设定",
+    "tag": "CE302SET"
+  },
+  {
+    "name": "功率因数设定",
+    "tag": "CE401SET"
+  },
+  {
+    "name": "有功功率变化速度",
+    "tag": "CE301BS"
+  },
+  {
+    "name": "空气密度下发值",
+    "tag": "A_DEN_SET"
+  },
+  {
+    "name": "运行时间",
+    "tag": "RUNTIME01"
+  },
+  {
+    "name": "人工停机时间",
+    "tag": "STOPTIME01"
+  },
+  {
+    "name": "环境温度过低停机时间",
+    "tag": "STOPTIME02"
+  },
+  {
+    "name": "风暴停机时间",
+    "tag": "STOPTIME03"
+  },
+  {
+    "name": "风机正常运行时间",
+    "tag": "RUNTIME02"
+  },
+  {
+    "name": "电网正常运行时间",
+    "tag": "RUNTIME03"
+  },
+  {
+    "name": "发电时间",
+    "tag": "POWERTIME"
+  },
+  {
+    "name": "服务时间",
+    "tag": "SER_TIME"
+  },
+  {
+    "name": "故障停机时间",
+    "tag": "SP_TIME04"
+  },
+  {
+    "name": "风机自身故障停机时间",
+    "tag": "SP_TIME05"
+  },
+  {
+    "name": "有效风小时数",
+    "tag": "EFFHOURS"
+  },
+  {
+    "name": "有功发电量",
+    "tag": "CE901FD"
+  },
+  {
+    "name": "日有功发电量",
+    "tag": "DCE901FD"
+  },
+  {
+    "name": "有功耗电量",
+    "tag": "CE901HD"
+  },
+  {
+    "name": "日有功耗电量",
+    "tag": "DCE901HD"
+  },
+  {
+    "name": "工作模式",
+    "tag": "WORKMOD"
+  },
+  {
+    "name": "无功功率设定状态",
+    "tag": "CE302S_STA"
+  },
+  {
+    "name": "已自启动次数",
+    "tag": "STARTCOUNT"
+  },
+  {
+    "name": "风机序列号",
+    "tag": "ORDERNO"
+  },
+  {
+    "name": "有功功率",
+    "tag": "CE301"
+  },
+  {
+    "name": "电网有功功率",
+    "tag": "CE301DW"
+  },
+  {
+    "name": "60秒平均有功功率",
+    "tag": "CE301_60S"
+  },
+  {
+    "name": "600秒平均有功功率",
+    "tag": "CE301_600S"
+  },
+  {
+    "name": "10s平均有功功率",
+    "tag": "CE301_10S"
+  },
+  {
+    "name": "无功功率",
+    "tag": "CE302"
+  },
+  {
+    "name": "发电机无功功率",
+    "tag": "CE302FDJ"
+  },
+  {
+    "name": "电网无功功率",
+    "tag": "CE302DW"
+  },
+  {
+    "name": "有功功率设定反馈",
+    "tag": "CE301S_B"
+  },
+  {
+    "name": "无功功率设定反馈",
+    "tag": "CE302S_B"
+  },
+  {
+    "name": "功率因数设定反馈",
+    "tag": "CE401S_B"
+  },
+  {
+    "name": "自动降容功率设置反馈值",
+    "tag": "CE501S_B"
+  },
+  {
+    "name": "空气密度下发值反馈",
+    "tag": "A_DEN_S_B"
+  },
+  {
+    "name": "有功功率变化速度反馈",
+    "tag": "CE301BS_B"
+  },
+  {
+    "name": "PLC时间-时",
+    "tag": "PLCTIME_H"
+  },
+  {
+    "name": "PLC时间-分",
+    "tag": "PLCTIME_MIN"
+  },
+  {
+    "name": "PLC时间-秒",
+    "tag": "PLCTIME_S"
+  },
+  {
+    "name": "PLC时间-年",
+    "tag": "PLCTIME_Y"
+  },
+  {
+    "name": "PLC时间-月",
+    "tag": "PLCTIME_M"
+  },
+  {
+    "name": "PLC时间-日",
+    "tag": "PLCTIME_D"
+  },
+  {
+    "name": "风轮转速",
+    "tag": "FL_SPEED"
+  },
+  {
+    "name": "变桨轮毂温度",
+    "tag": "BJL_TEMP"
+  },
+  {
+    "name": "叶片应变桨的角度",
+    "tag": "CV10001"
+  },
+  {
+    "name": "叶片1实际桨距角",
+    "tag": "CV10002"
+  },
+  {
+    "name": "叶片2实际桨距角",
+    "tag": "CV10003"
+  },
+  {
+    "name": "叶片3实际桨距角",
+    "tag": "CV10004"
+  },
+  {
+    "name": "叶片1冗余桨角",
+    "tag": "CV10005"
+  },
+  {
+    "name": "叶片2冗余桨角",
+    "tag": "CV10006"
+  },
+  {
+    "name": "叶片3冗余桨角",
+    "tag": "CV10007"
+  },
+  {
+    "name": "叶片1实际变桨速率",
+    "tag": "BJ_SPEED1"
+  },
+  {
+    "name": "叶片2实际变桨速率",
+    "tag": "BJ_SPEED2"
+  },
+  {
+    "name": "叶片3实际变桨速率",
+    "tag": "BJ_SPEED3"
+  },
+  {
+    "name": "叶片1驱动电流",
+    "tag": "DRI_CUR1"
+  },
+  {
+    "name": "叶片2驱动电流",
+    "tag": "DRI_CUR2"
+  },
+  {
+    "name": "叶片3驱动电流",
+    "tag": "DRI_CUR13"
+  },
+  {
+    "name": "叶片1电机温度",
+    "tag": "MOTOR_TEM1"
+  },
+  {
+    "name": "叶片2电机温度",
+    "tag": "MOTOR_TEM2"
+  },
+  {
+    "name": "叶片3电机温度",
+    "tag": "MOTOR_TEM3"
+  },
+  {
+    "name": "叶片1控制柜温度",
+    "tag": "KZG_TEMP1"
+  },
+  {
+    "name": "叶片2控制柜温度",
+    "tag": "KZG_TEMP2"
+  },
+  {
+    "name": "叶片3控制柜温度",
+    "tag": "KZG_TEMP3"
+  },
+  {
+    "name": "叶片1散热器温度",
+    "tag": "SRQ_TEMP1"
+  },
+  {
+    "name": "叶片2散热器温度",
+    "tag": "SRQ_TEMP2"
+  },
+  {
+    "name": "叶片3散热器温度",
+    "tag": "SRQ_TEMP3"
+  },
+  {
+    "name": "叶片1后备电源温度",
+    "tag": "HBDY_TEMP1"
+  },
+  {
+    "name": "叶片2后备电源温度",
+    "tag": "HBDY_TEMP2"
+  },
+  {
+    "name": "叶片3后备电源温度",
+    "tag": "HBDY_TEMP3"
+  },
+  {
+    "name": "叶片1后备电源电压",
+    "tag": "HBDY_VOL1"
+  },
+  {
+    "name": "叶片2后备电源电压",
+    "tag": "HBDY_VOL2"
+  },
+  {
+    "name": "叶片3后备电源电压",
+    "tag": "HBDY_VOL3"
+  },
+  {
+    "name": "齿轮箱高速轴前端温度",
+    "tag": "CLX_TEMP1"
+  },
+  {
+    "name": "齿轮箱高速轴后端温度",
+    "tag": "CLX_TEMP2"
+  },
+  {
+    "name": "主轴前轴承温度",
+    "tag": "ZZ_TEMP1"
+  },
+  {
+    "name": "主轴后轴承温度",
+    "tag": "ZZ_TEMP2"
+  },
+  {
+    "name": "齿轮箱油温度",
+    "tag": "CLX_TEMP3"
+  },
+  {
+    "name": "齿轮箱进口油温",
+    "tag": "CLX_TEMP4"
+  },
+  {
+    "name": "齿轮箱进口压力",
+    "tag": "CLX_PRE1"
+  },
+  {
+    "name": "齿轮箱油泵出口压力",
+    "tag": "CLX_PRE2"
+  },
+  {
+    "name": "轴制动液压",
+    "tag": "CLX_PRE3"
+  },
+  {
+    "name": "齿轮箱冷却水温度",
+    "tag": "CLX_TEMP5"
+  },
+  {
+    "name": "发电机转速",
+    "tag": "FDJ_SPEED"
+  },
+  {
+    "name": "发电机有功功率",
+    "tag": "CE301FDJ"
+  },
+  {
+    "name": "发电机绕组最高温度",
+    "tag": "FDJ_TEMP1"
+  },
+  {
+    "name": "发电机绕组温度U1",
+    "tag": "FDJ_TEMP2"
+  },
+  {
+    "name": "发电机绕组温度U2",
+    "tag": "FDJ_TEMP3"
+  },
+  {
+    "name": "发电机绕组温度V1",
+    "tag": "FDJ_TEMP4"
+  },
+  {
+    "name": "发电机绕组温度V2",
+    "tag": "FDJ_TEMP5"
+  },
+  {
+    "name": "发电机绕组温度W1",
+    "tag": "FDJ_TEMP6"
+  },
+  {
+    "name": "发电机绕组温度W2",
+    "tag": "FDJ_TEMP7"
+  },
+  {
+    "name": "发电机冷却水温度",
+    "tag": "FDJ_TEMP8"
+  },
+  {
+    "name": "发电机前轴承温度",
+    "tag": "FDJ_TEMP9"
+  },
+  {
+    "name": "发电机后轴承温度",
+    "tag": "FDJ_TEMP10"
+  },
+  {
+    "name": "发电机滑环室温度",
+    "tag": "FDJ_TEMP11"
+  },
+  {
+    "name": "发电机转矩",
+    "tag": "FDJ_TOR"
+  },
+  {
+    "name": "频率",
+    "tag": "FRE"
+  },
+  {
+    "name": "A相相电压",
+    "tag": "CE20001"
+  },
+  {
+    "name": "B相相电压",
+    "tag": "CE20002"
+  },
+  {
+    "name": "C相相电压",
+    "tag": "CE20003"
+  },
+  {
+    "name": "A相电流",
+    "tag": "CE10001"
+  },
+  {
+    "name": "B相电流",
+    "tag": "CE10002"
+  },
+  {
+    "name": "C相电流",
+    "tag": "CE10003"
+  },
+  {
+    "name": "变流器内温度",
+    "tag": "BLQ_TEMP"
+  },
+  {
+    "name": "机舱方向",
+    "tag": "E_ROOM_DIR"
+  },
+  {
+    "name": "风速",
+    "tag": "WSPEED"
+  },
+  {
+    "name": "1#风速计瞬时风速",
+    "tag": "INS_SPD1"
+  },
+  {
+    "name": "2#风速计瞬时风速",
+    "tag": "INS_SPD2"
+  },
+  {
+    "name": "10s平均风速",
+    "tag": "AVE_SPD10S"
+  },
+  {
+    "name": "60s平均风速",
+    "tag": "AVE_SPD60S"
+  },
+  {
+    "name": "10min平均风速",
+    "tag": "AVE_SPD10MIN"
+  },
+  {
+    "name": "机舱外风向",
+    "tag": "WDIR1"
+  },
+  {
+    "name": "瞬时风向",
+    "tag": "WDIR2"
+  },
+  {
+    "name": "1#风向仪瞬时风向",
+    "tag": "WDIR3"
+  },
+  {
+    "name": "2#风向仪瞬时风向",
+    "tag": "WDIR4"
+  },
+  {
+    "name": "25s平均风向",
+    "tag": "AVE_DIR_25S"
+  },
+  {
+    "name": "1#风向仪25s平均风向  ",
+    "tag": "AVE_DIR_25S1"
+  },
+  {
+    "name": "2#风向仪25s平均风向",
+    "tag": "AVE_DIR_25S2"
+  },
+  {
+    "name": "环境温度",
+    "tag": "AMB_TEM"
+  },
+  {
+    "name": "机舱温度",
+    "tag": "E_RM_TEM"
+  },
+  {
+    "name": "机舱控制柜温度",
+    "tag": "E_RM_PLCTEM"
+  },
+  {
+    "name": "机舱振动有效值",
+    "tag": "E_RM_VIB"
+  },
+  {
+    "name": "机舱X方向振动",
+    "tag": "E_RM_VIB_X"
+  },
+  {
+    "name": "机舱Y方向振动",
+    "tag": "E_RM_VIB_Y"
+  },
+  {
+    "name": "机舱x、y方向振动最大值",
+    "tag": "E_RM_VIB_MAX"
+  },
+  {
+    "name": "顺时针偏航运行时间",
+    "tag": "RUNTIME_SP"
+  },
+  {
+    "name": "逆时针偏航运行时间",
+    "tag": "RUNTIME_NP"
+  },
+  {
+    "name": "偏航速率",
+    "tag": "RATE_PH"
+  },
+  {
+    "name": "偏航方位角",
+    "tag": "ANGLE_PH"
+  },
+  {
+    "name": "解缆角度",
+    "tag": "ANGLE_JL"
+  },
+  {
+    "name": "偏航压力",
+    "tag": "PRE_PH"
+  },
+  {
+    "name": "塔基柜温度",
+    "tag": "TOWER_G_TEM"
+  },
+  {
+    "name": "最新故障代码",
+    "tag": "FAUL_CODE"
+  },
+  {
+    "name": "最小变桨角度",
+    "tag": "ANGLE_BJ_MIN"
+  },
+  {
+    "name": "无功发电量",
+    "tag": "CE901WG"
+  },
+  {
+    "name": "60s平均无功功率",
+    "tag": "CE302_60S"
+  },
+  {
+    "name": "10min平均无功功率",
+    "tag": "CE302_10MIN"
+  },
+  {
+    "name": "变桨中控柜温度",
+    "tag": "BJZK_TEM"
+  },
+  {
+    "name": "齿轮箱高速侧最大温度",
+    "tag": "CLXGSC_TEM"
+  },
+  {
+    "name": "变流器直流电压",
+    "tag": "CE20001ZL"
+  },
+  {
+    "name": "机舱振动600s平均值",
+    "tag": "E_RM_VIB_60S"
+  },
+  {
+    "name": "塔基温度",
+    "tag": "TOWER_TEM"
+  },
+  {
+    "name": "风向600s平均值",
+    "tag": "AVE_DIR_600S"
+  },
+  {
+    "name": "机舱前端温度",
+    "tag": "E_ROOM_TEM_F"
+  },
+  {
+    "name": "功率因数",
+    "tag": "CE401"
+  },
+  {
+    "name": "警告代码1",
+    "tag": "WAR_CODE1"
+  },
+  {
+    "name": "警告代码2",
+    "tag": "WAR_CODE2"
+  },
+  {
+    "name": "警告代码3",
+    "tag": "WAR_CODE3"
+  },
+  {
+    "name": "警告代码4",
+    "tag": "WAR_CODE4"
+  },
+  {
+    "name": "警告代码5",
+    "tag": "WAR_CODE5"
+  },
+  {
+    "name": "警告代码6",
+    "tag": "WAR_CODE6"
+  },
+  {
+    "name": "警告代码7",
+    "tag": "WAR_CODE7"
+  },
+  {
+    "name": "警告代码8",
+    "tag": "WAR_CODE8"
+  },
+  {
+    "name": "警告代码9",
+    "tag": "WAR_CODE9"
+  },
+  {
+    "name": "警告代码10",
+    "tag": "WAR_CODE10"
+  },
+  {
+    "name": "发电机内风路进风口温度(1s)",
+    "tag": "FDJ_N_TEMP1"
+  },
+  {
+    "name": "发电机内风路出风口温度(1s)",
+    "tag": "FDJ_N_TEMP2"
+  },
+  {
+    "name": "发电机外风路进风口温度(1s)",
+    "tag": "FDJ_N_TEMP3"
+  },
+  {
+    "name": "发电机外风路出风口温度(1s)",
+    "tag": "FDJ_N_TEMP4"
+  },
+  {
+    "name": "空气密度",
+    "tag": "AIR_DEN"
+  },
+  {
+    "name": "曲线-60s平均风速",
+    "tag": "AVE_SPD_60S"
+  },
+  {
+    "name": "曲线-60s平均功率",
+    "tag": "AVE_POW_60S"
+  }
+]

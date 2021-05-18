@@ -1,0 +1,138 @@
+[
+  {
+    "name": "齿轮箱高速轴前端温度",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valCLX_TEMP1"
+  },
+  {
+    "name": "齿轮相高速轴后端温度",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valCLX_TEMP2"
+  },
+  {
+    "name": "齿轮箱油温度",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valCLX_TEMP3"
+  },
+  {
+    "name": "齿轮箱进口油温",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valCLX_TEMP4"
+  },
+  {
+    "name": "齿轮箱冷却水温度",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valCLX_TEMP5"
+  },
+  {
+    "name": "齿轮箱进口压力",
+    "value": 0,
+    "unit": "bar",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valCLX_PRE1"
+  },
+  {
+    "name": "齿轮箱油泵出口压力",
+    "value": 0,
+    "unit": "bar",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valCLX_PRE2"
+  },
+  {
+    "name": "主轴前轴承温度",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valZZ_TEMP1"
+  },
+  {
+    "name": "主轴后轴承温度",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valZZ_TEMP2"
+  },
+  {
+    "name": "风轮转速",
+    "value": 0,
+    "unit": "r/m",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valFL_SPEED"
+  },
+  {
+    "name": "轴制动液压",
+    "value": 0,
+    "unit": "bar",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valCLX_PRE3"
+  },
+  {
+    "name": "转子刹车释放",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": true,
+    "tagName": "ZQ:valROT_FREE"
+  },
+  {
+    "name": "转子刹车投入",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": true,
+    "tagName": "ZQ:valROT_PUTIN"
+  },
+  {
+    "name": "齿轮箱润滑泵高速",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valPUMP_SP_H"
+  },
+  {
+    "name": "齿轮箱润滑泵低速",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": true,
+    "tagName": "ZQ:valPUMP_SP_L"
+  },
+  {
+    "name": "齿轮箱冷却风扇",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valFAN_CL"
+  },
+  {
+    "name": "齿轮箱冷却水泵",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valPUMP_CL"
+  }
+]

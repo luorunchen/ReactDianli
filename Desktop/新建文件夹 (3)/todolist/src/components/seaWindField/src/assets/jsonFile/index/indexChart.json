@@ -1,0 +1,777 @@
+[
+  {
+    "lineName": "环线1",
+    "zyg": 0,
+    "zwg": 0,
+    "maxSpeed": 0,
+    "minSpeed": 0,
+    "children": [
+      {
+        "state": "ZQ:F03WORKMOD",
+        "name": "F03",
+        "rfdl": "ZQ:F03DCE901FD",
+        "speed": "ZQ:F03WSPEED",
+        "y_power": "ZQ:F03CE301",
+        "w_power": "ZQ:F03CE302",
+        "LimitedWork": "ZQ:F03_RUNSTA_XG",
+        "fault": "ZQ:F03_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F04WORKMOD",
+        "name": "F04",
+        "rfdl": "ZQ:F04DCE901FD",
+        "speed": "ZQ:F04WSPEED",
+        "y_power": "ZQ:F04CE301",
+        "w_power": "ZQ:F04CE302",
+        "LimitedWork": "ZQ:F04_RUNSTA_XG",
+        "fault": "ZQ:F04_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F05WORKMOD",
+        "name": "F05",
+        "rfdl": "ZQ:F05DCE901FD",
+        "speed": "ZQ:F05WSPEED",
+        "y_power": "ZQ:F05CE301",
+        "w_power": "ZQ:F05CE302",
+        "LimitedWork": "ZQ:F05_RUNSTA_XG",
+        "fault": "ZQ:F05_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F06WORKMOD",
+        "name": "F06",
+        "rfdl": "ZQ:F06DCE901FD",
+        "speed": "ZQ:F06WSPEED",
+        "y_power": "ZQ:F06CE301",
+        "w_power": "ZQ:F06CE302",
+        "LimitedWork": "ZQ:F06_RUNSTA_XG",
+        "fault": "ZQ:F06_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F07WORKMOD",
+        "name": "F07",
+        "rfdl": "ZQ:F07DCE901FD",
+        "speed": "ZQ:F07WSPEED",
+        "y_power": "ZQ:F07CE301",
+        "w_power": "ZQ:F07CE302",
+        "LimitedWork": "ZQ:F07_RUNSTA_XG",
+        "fault": "ZQ:F07_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F08WORKMOD",
+        "name": "F08",
+        "rfdl": "ZQ:F08DCE901FD",
+        "speed": "ZQ:F08WSPEED",
+        "y_power": "ZQ:F08CE301",
+        "w_power": "ZQ:F08CE302",
+        "LimitedWork": "ZQ:F08_RUNSTA_XG",
+        "fault": "ZQ:F08_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F09WORKMOD",
+        "name": "F09",
+        "rfdl": "ZQ:F09DCE901FD",
+        "speed": "ZQ:F09WSPEED",
+        "y_power": "ZQ:F09CE301",
+        "w_power": "ZQ:F09CE302",
+        "LimitedWork": "ZQ:F09_RUNSTA_XG",
+        "fault": "ZQ:F09_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F10WORKMOD",
+        "name": "F10",
+        "rfdl": "ZQ:F10DCE901FD",
+        "speed": "ZQ:F10WSPEED",
+        "y_power": "ZQ:F10CE301",
+        "w_power": "ZQ:F10CE302",
+        "LimitedWork": "ZQ:F10_RUNSTA_XG",
+        "fault": "ZQ:F10_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F11WORKMOD",
+        "name": "F11",
+        "rfdl": "ZQ:F11DCE901FD",
+        "speed": "ZQ:F11WSPEED",
+        "y_power": "ZQ:F11CE301",
+        "w_power": "ZQ:F11CE302",
+        "LimitedWork": "ZQ:F11_RUNSTA_XG",
+        "fault": "ZQ:F11_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F12WORKMOD",
+        "name": "F12",
+        "rfdl": "ZQ:F12DCE901FD",
+        "speed": "ZQ:F12WSPEED",
+        "y_power": "ZQ:F12CE301",
+        "w_power": "ZQ:F12CE302",
+        "LimitedWork": "ZQ:F12_RUNSTA_XG",
+        "fault": "ZQ:F12_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F13WORKMOD",
+        "name": "F13",
+        "rfdl": "ZQ:F13DCE901FD",
+        "speed": "ZQ:F13WSPEED",
+        "y_power": "ZQ:F13CE301",
+        "w_power": "ZQ:F13CE302",
+        "LimitedWork": "ZQ:F13_RUNSTA_XG",
+        "fault": "ZQ:F13_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F14WORKMOD",
+        "name": "F14",
+        "rfdl": "ZQ:F14DCE901FD",
+        "speed": "ZQ:F14WSPEED",
+        "y_power": "ZQ:F14CE301",
+        "w_power": "ZQ:F14CE302",
+        "LimitedWork": "ZQ:F14_RUNSTA_XG",
+        "fault": "ZQ:F14_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F15WORKMOD",
+        "name": "F15",
+        "rfdl": "ZQ:F15DCE901FD",
+        "speed": "ZQ:F15WSPEED",
+        "y_power": "ZQ:F15CE301",
+        "w_power": "ZQ:F15CE302",
+        "LimitedWork": "ZQ:F15_RUNSTA_XG",
+        "fault": "ZQ:F15_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F16WORKMOD",
+        "name": "F16",
+        "rfdl": "ZQ:F16DCE901FD",
+        "speed": "ZQ:F16WSPEED",
+        "y_power": "ZQ:F16CE301",
+        "w_power": "ZQ:F16CE302",
+        "LimitedWork": "ZQ:F16_RUNSTA_XG",
+        "fault": "ZQ:F16_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F17WORKMOD",
+        "name": "F17",
+        "rfdl": "ZQ:F17DCE901FD",
+        "speed": "ZQ:F17WSPEED",
+        "y_power": "ZQ:F17CE301",
+        "w_power": "ZQ:F17CE302",
+        "LimitedWork": "ZQ:F17_RUNSTA_XG",
+        "fault": "ZQ:F17_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F18WORKMOD",
+        "name": "F18",
+        "rfdl": "ZQ:F18DCE901FD",
+        "speed": "ZQ:F18WSPEED",
+        "y_power": "ZQ:F18CE301",
+        "w_power": "ZQ:F18CE302",
+        "LimitedWork": "ZQ:F18_RUNSTA_XG",
+        "fault": "ZQ:F18_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F24WORKMOD",
+        "name": "F24",
+        "rfdl": "ZQ:F24DCE901FD",
+        "speed": "ZQ:F24WSPEED",
+        "y_power": "ZQ:F24CE301",
+        "w_power": "ZQ:F24CE302",
+        "LimitedWork": "ZQ:F24_RUNSTA_XG",
+        "fault": "ZQ:F24_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F25WORKMOD",
+        "name": "F25",
+        "rfdl": "ZQ:F25DCE901FD",
+        "speed": "ZQ:F25WSPEED",
+        "y_power": "ZQ:F25CE301",
+        "w_power": "ZQ:F25CE302",
+        "LimitedWork": "ZQ:F25_RUNSTA_XG",
+        "fault": "ZQ:F25_FAUL_STA"
+      }
+    ]
+  },
+  {
+    "lineName": "环线2",
+    "zyg": 0,
+    "zwg": 0,
+    "maxSpeed": 0,
+    "minSpeed": 0,
+    "children": [
+      {
+        "state": "ZQ:F19WORKMOD",
+        "name": "F19",
+        "rfdl": "ZQ:F19DCE901FD",
+        "speed": "ZQ:F19WSPEED",
+        "y_power": "ZQ:F19CE301",
+        "w_power": "ZQ:F19CE302",
+        "LimitedWork": "ZQ:F19_RUNSTA_XG",
+        "fault": "ZQ:F19_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F20WORKMOD",
+        "name": "F20",
+        "rfdl": "ZQ:F20DCE901FD",
+        "speed": "ZQ:F20WSPEED",
+        "y_power": "ZQ:F20CE301",
+        "w_power": "ZQ:F20CE302",
+        "LimitedWork": "ZQ:F20_RUNSTA_XG",
+        "fault": "ZQ:F20_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F21WORKMOD",
+        "name": "F21",
+        "rfdl": "ZQ:F21DCE901FD",
+        "speed": "ZQ:F21WSPEED",
+        "y_power": "ZQ:F21CE301",
+        "w_power": "ZQ:F21CE302",
+        "LimitedWork": "ZQ:F21_RUNSTA_XG",
+        "fault": "ZQ:F21_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F22WORKMOD",
+        "name": "F22",
+        "rfdl": "ZQ:F22DCE901FD",
+        "speed": "ZQ:F22WSPEED",
+        "y_power": "ZQ:F22CE301",
+        "w_power": "ZQ:F22CE302",
+        "LimitedWork": "ZQ:F22_RUNSTA_XG",
+        "fault": "ZQ:F22_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F23WORKMOD",
+        "name": "F23",
+        "rfdl": "ZQ:F23DCE901FD",
+        "speed": "ZQ:F23WSPEED",
+        "y_power": "ZQ:F23CE301",
+        "w_power": "ZQ:F23CE302",
+        "LimitedWork": "ZQ:F23_RUNSTA_XG",
+        "fault": "ZQ:F23_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F26WORKMOD",
+        "name": "F26",
+        "rfdl": "ZQ:F26DCE901FD",
+        "speed": "ZQ:F26WSPEED",
+        "y_power": "ZQ:F26CE301",
+        "w_power": "ZQ:F26CE302",
+        "LimitedWork": "ZQ:F26_RUNSTA_XG",
+        "fault": "ZQ:F26_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F27WORKMOD",
+        "name": "F27",
+        "rfdl": "ZQ:F27DCE901FD",
+        "speed": "ZQ:F27WSPEED",
+        "y_power": "ZQ:F27CE301",
+        "w_power": "ZQ:F27CE302",
+        "LimitedWork": "ZQ:F27_RUNSTA_XG",
+        "fault": "ZQ:F27_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F28WORKMOD",
+        "name": "F28",
+        "rfdl": "ZQ:F28DCE901FD",
+        "speed": "ZQ:F28WSPEED",
+        "y_power": "ZQ:F28CE301",
+        "w_power": "ZQ:F28CE302",
+        "LimitedWork": "ZQ:F28_RUNSTA_XG",
+        "fault": "ZQ:F28_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F29WORKMOD",
+        "name": "F29",
+        "rfdl": "ZQ:F29DCE901FD",
+        "speed": "ZQ:F29WSPEED",
+        "y_power": "ZQ:F29CE301",
+        "w_power": "ZQ:F29CE302",
+        "LimitedWork": "ZQ:F29_RUNSTA_XG",
+        "fault": "ZQ:F29_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F30WORKMOD",
+        "name": "F30",
+        "rfdl": "ZQ:F30DCE901FD",
+        "speed": "ZQ:F30WSPEED",
+        "y_power": "ZQ:F30CE301",
+        "w_power": "ZQ:F30CE302",
+        "LimitedWork": "ZQ:F30_RUNSTA_XG",
+        "fault": "ZQ:F30_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F31WORKMOD",
+        "name": "F31",
+        "rfdl": "ZQ:F31DCE901FD",
+        "speed": "ZQ:F31WSPEED",
+        "y_power": "ZQ:F31CE301",
+        "w_power": "ZQ:F31CE302",
+        "LimitedWork": "ZQ:F31_RUNSTA_XG",
+        "fault": "ZQ:F31_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F32WORKMOD",
+        "name": "F32",
+        "rfdl": "ZQ:F32DCE901FD",
+        "speed": "ZQ:F32WSPEED",
+        "y_power": "ZQ:F32CE301",
+        "w_power": "ZQ:F32CE302",
+        "LimitedWork": "ZQ:F32_RUNSTA_XG",
+        "fault": "ZQ:F32_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F33WORKMOD",
+        "name": "F33",
+        "rfdl": "ZQ:F33DCE901FD",
+        "speed": "ZQ:F33WSPEED",
+        "y_power": "ZQ:F33CE301",
+        "w_power": "ZQ:F33CE302",
+        "LimitedWork": "ZQ:F33_RUNSTA_XG",
+        "fault": "ZQ:F33_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F34WORKMOD",
+        "name": "F34",
+        "rfdl": "ZQ:F34DCE901FD",
+        "speed": "ZQ:F34WSPEED",
+        "y_power": "ZQ:F34CE301",
+        "w_power": "ZQ:F34CE302",
+        "LimitedWork": "ZQ:F34_RUNSTA_XG",
+        "fault": "ZQ:F34_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F35WORKMOD",
+        "name": "F35",
+        "rfdl": "ZQ:F35DCE901FD",
+        "speed": "ZQ:F35WSPEED",
+        "y_power": "ZQ:F35CE301",
+        "w_power": "ZQ:F35CE302",
+        "LimitedWork": "ZQ:F35_RUNSTA_XG",
+        "fault": "ZQ:F35_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F70WORKMOD",
+        "name": "F70",
+        "rfdl": "ZQ:F70DCE901FD",
+        "speed": "ZQ:F70WSPEED",
+        "y_power": "ZQ:F70CE301",
+        "w_power": "ZQ:F70CE302",
+        "LimitedWork": "ZQ:F70_RUNSTA_XG",
+        "fault": "ZQ:F70_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F71WORKMOD",
+        "name": "F71",
+        "rfdl": "ZQ:F71DCE901FD",
+        "speed": "ZQ:F71WSPEED",
+        "y_power": "ZQ:F71CE301",
+        "w_power": "ZQ:F71CE302",
+        "LimitedWork": "ZQ:F71_RUNSTA_XG",
+        "fault": "ZQ:F71_FAUL_STA"
+      }
+    ]
+  },
+  {
+    "lineName": "环线3",
+    "zyg": 0,
+    "zwg": 0,
+    "maxSpeed": 0,
+    "minSpeed": 0,
+    "children": [
+      {
+        "state": "ZQ:F02WORKMOD",
+        "name": "F02",
+        "rfdl": "ZQ:F02DCE901FD",
+        "speed": "ZQ:F02WSPEED",
+        "y_power": "ZQ:F02CE301",
+        "w_power": "ZQ:F02CE302",
+        "LimitedWork": "ZQ:F02_RUNSTA_XG",
+        "fault": "ZQ:F02_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F36WORKMOD",
+        "name": "F36",
+        "rfdl": "ZQ:F36DCE901FD",
+        "speed": "ZQ:F36WSPEED",
+        "y_power": "ZQ:F36CE301",
+        "w_power": "ZQ:F36CE302",
+        "LimitedWork": "ZQ:F36_RUNSTA_XG",
+        "fault": "ZQ:F36_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F37WORKMOD",
+        "name": "F37",
+        "rfdl": "ZQ:F37DCE901FD",
+        "speed": "ZQ:F37WSPEED",
+        "y_power": "ZQ:F37CE301",
+        "w_power": "ZQ:F37CE302",
+        "LimitedWork": "ZQ:F37_RUNSTA_XG",
+        "fault": "ZQ:F37_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F38WORKMOD",
+        "name": "F38",
+        "rfdl": "ZQ:F38DCE901FD",
+        "speed": "ZQ:F38WSPEED",
+        "y_power": "ZQ:F38CE301",
+        "w_power": "ZQ:F38CE302",
+        "LimitedWork": "ZQ:F38_RUNSTA_XG",
+        "fault": "ZQ:F38_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F39WORKMOD",
+        "name": "F39",
+        "rfdl": "ZQ:F39DCE901FD",
+        "speed": "ZQ:F39WSPEED",
+        "y_power": "ZQ:F39CE301",
+        "w_power": "ZQ:F39CE302",
+        "LimitedWork": "ZQ:F39_RUNSTA_XG",
+        "fault": "ZQ:F39_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F40WORKMOD",
+        "name": "F40",
+        "rfdl": "ZQ:F40DCE901FD",
+        "speed": "ZQ:F40WSPEED",
+        "y_power": "ZQ:F40CE301",
+        "w_power": "ZQ:F40CE302",
+        "LimitedWork": "ZQ:F40_RUNSTA_XG",
+        "fault": "ZQ:F40_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F41WORKMOD",
+        "name": "F41",
+        "rfdl": "ZQ:F41DCE901FD",
+        "speed": "ZQ:F41WSPEED",
+        "y_power": "ZQ:F41CE301",
+        "w_power": "ZQ:F41CE302",
+        "LimitedWork": "ZQ:F41_RUNSTA_XG",
+        "fault": "ZQ:F41_FAUL_STA"
+      }
+    ]
+  },
+  {
+    "lineName": "环线4",
+    "zyg": 0,
+    "zwg": 0,
+    "maxSpeed": 0,
+    "minSpeed": 0,
+    "children": [
+      {
+        "state": "ZQ:F43WORKMOD",
+        "name": "F43",
+        "rfdl": "ZQ:F43DCE901FD",
+        "speed": "ZQ:F43WSPEED",
+        "y_power": "ZQ:F43CE301",
+        "w_power": "ZQ:F43CE302",
+        "LimitedWork": "ZQ:F43_RUNSTA_XG",
+        "fault": "ZQ:F43_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F44WORKMOD",
+        "name": "F44",
+        "rfdl": "ZQ:F44DCE901FD",
+        "speed": "ZQ:F44WSPEED",
+        "y_power": "ZQ:F44CE301",
+        "w_power": "ZQ:F44CE302",
+        "LimitedWork": "ZQ:F44_RUNSTA_XG",
+        "fault": "ZQ:F44_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F45WORKMOD",
+        "name": "F45",
+        "rfdl": "ZQ:F45DCE901FD",
+        "speed": "ZQ:F45WSPEED",
+        "y_power": "ZQ:F45CE301",
+        "w_power": "ZQ:F45CE302",
+        "LimitedWork": "ZQ:F45_RUNSTA_XG",
+        "fault": "ZQ:F45_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F46WORKMOD",
+        "name": "F46",
+        "rfdl": "ZQ:F46DCE901FD",
+        "speed": "ZQ:F46WSPEED",
+        "y_power": "ZQ:F46CE301",
+        "w_power": "ZQ:F46CE302",
+        "LimitedWork": "ZQ:F46_RUNSTA_XG",
+        "fault": "ZQ:F46_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F47WORKMOD",
+        "name": "F47",
+        "rfdl": "ZQ:F47DCE901FD",
+        "speed": "ZQ:F47WSPEED",
+        "y_power": "ZQ:F47CE301",
+        "w_power": "ZQ:F47CE302",
+        "LimitedWork": "ZQ:F47_RUNSTA_XG",
+        "fault": "ZQ:F47_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F48WORKMOD",
+        "name": "F48",
+        "rfdl": "ZQ:F48DCE901FD",
+        "speed": "ZQ:F48WSPEED",
+        "y_power": "ZQ:F48CE301",
+        "w_power": "ZQ:F48CE302",
+        "LimitedWork": "ZQ:F48_RUNSTA_XG",
+        "fault": "ZQ:F48_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F49WORKMOD",
+        "name": "F49",
+        "rfdl": "ZQ:F49DCE901FD",
+        "speed": "ZQ:F49WSPEED",
+        "y_power": "ZQ:F49CE301",
+        "w_power": "ZQ:F49CE302",
+        "LimitedWork": "ZQ:F49_RUNSTA_XG",
+        "fault": "ZQ:F49_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F50WORKMOD",
+        "name": "F50",
+        "rfdl": "ZQ:F50DCE901FD",
+        "speed": "ZQ:F50WSPEED",
+        "y_power": "ZQ:F50CE301",
+        "w_power": "ZQ:F50CE302",
+        "LimitedWork": "ZQ:F50_RUNSTA_XG",
+        "fault": "ZQ:F50_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F51WORKMOD",
+        "name": "F51",
+        "rfdl": "ZQ:F51DCE901FD",
+        "speed": "ZQ:F51WSPEED",
+        "y_power": "ZQ:F51CE301",
+        "w_power": "ZQ:F51CE302",
+        "LimitedWork": "ZQ:F51_RUNSTA_XG",
+        "fault": "ZQ:F51_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F52WORKMOD",
+        "name": "F52",
+        "rfdl": "ZQ:F52DCE901FD",
+        "speed": "ZQ:F52WSPEED",
+        "y_power": "ZQ:F52CE301",
+        "w_power": "ZQ:F52CE302",
+        "LimitedWork": "ZQ:F52_RUNSTA_XG",
+        "fault": "ZQ:F52_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F53WORKMOD",
+        "name": "F53",
+        "rfdl": "ZQ:F53DCE901FD",
+        "speed": "ZQ:F53WSPEED",
+        "y_power": "ZQ:F53CE301",
+        "w_power": "ZQ:F53CE302",
+        "LimitedWork": "ZQ:F53_RUNSTA_XG",
+        "fault": "ZQ:F53_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F54WORKMOD",
+        "name": "F54",
+        "rfdl": "ZQ:F54DCE901FD",
+        "speed": "ZQ:F54WSPEED",
+        "y_power": "ZQ:F54CE301",
+        "w_power": "ZQ:F54CE302",
+        "LimitedWork": "ZQ:F54_RUNSTA_XG",
+        "fault": "ZQ:F54_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F55WORKMOD",
+        "name": "F55",
+        "rfdl": "ZQ:F55DCE901FD",
+        "speed": "ZQ:F55WSPEED",
+        "y_power": "ZQ:F55CE301",
+        "w_power": "ZQ:F55CE302",
+        "LimitedWork": "ZQ:F55_RUNSTA_XG",
+        "fault": "ZQ:F55_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F56WORKMOD",
+        "name": "F56",
+        "rfdl": "ZQ:F56DCE901FD",
+        "speed": "ZQ:F56WSPEED",
+        "y_power": "ZQ:F56CE301",
+        "w_power": "ZQ:F56CE302",
+        "LimitedWork": "ZQ:F56_RUNSTA_XG",
+        "fault": "ZQ:F56_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F57WORKMOD",
+        "name": "F57",
+        "rfdl": "ZQ:F57DCE901FD",
+        "speed": "ZQ:F57WSPEED",
+        "y_power": "ZQ:F57CE301",
+        "w_power": "ZQ:F57CE302",
+        "LimitedWork": "ZQ:F57_RUNSTA_XG",
+        "fault": "ZQ:F57_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F59WORKMOD",
+        "name": "F59",
+        "rfdl": "ZQ:F59DCE901FD",
+        "speed": "ZQ:F59WSPEED",
+        "y_power": "ZQ:F59CE301",
+        "w_power": "ZQ:F59CE302",
+        "LimitedWork": "ZQ:F59_RUNSTA_XG",
+        "fault": "ZQ:F59_FAUL_STA"
+      }
+    ]
+  },
+  {
+    "lineName": "环线5",
+    "zyg": 0,
+    "zwg": 0,
+    "maxSpeed": 0,
+    "minSpeed": 0,
+    "children": [
+      {
+        "state": "ZQ:F58WORKMOD",
+        "name": "F58",
+        "rfdl": "ZQ:F58DCE901FD",
+        "speed": "ZQ:F58WSPEED",
+        "y_power": "ZQ:F58CE301",
+        "w_power": "ZQ:F58CE302",
+        "LimitedWork": "ZQ:F58_RUNSTA_XG",
+        "fault": "ZQ:F58_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F60WORKMOD",
+        "name": "F60",
+        "rfdl": "ZQ:F60DCE901FD",
+        "speed": "ZQ:F60WSPEED",
+        "y_power": "ZQ:F60CE301",
+        "w_power": "ZQ:F60CE302",
+        "LimitedWork": "ZQ:F60_RUNSTA_XG",
+        "fault": "ZQ:F60_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F61WORKMOD",
+        "name": "F61",
+        "rfdl": "ZQ:F61DCE901FD",
+        "speed": "ZQ:F61WSPEED",
+        "y_power": "ZQ:F61CE301",
+        "w_power": "ZQ:F61CE302",
+        "LimitedWork": "ZQ:F61_RUNSTA_XG",
+        "fault": "ZQ:F61_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F62WORKMOD",
+        "name": "F62",
+        "rfdl": "ZQ:F62DCE901FD",
+        "speed": "ZQ:F62WSPEED",
+        "y_power": "ZQ:F62CE301",
+        "w_power": "ZQ:F62CE302",
+        "LimitedWork": "ZQ:F62_RUNSTA_XG",
+        "fault": "ZQ:F62_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F63WORKMOD",
+        "name": "F63",
+        "rfdl": "ZQ:F63DCE901FD",
+        "speed": "ZQ:F63WSPEED",
+        "y_power": "ZQ:F63CE301",
+        "w_power": "ZQ:F63CE302",
+        "LimitedWork": "ZQ:F63_RUNSTA_XG",
+        "fault": "ZQ:F63_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F64WORKMOD",
+        "name": "F64",
+        "rfdl": "ZQ:F64DCE901FD",
+        "speed": "ZQ:F64WSPEED",
+        "y_power": "ZQ:F64CE301",
+        "w_power": "ZQ:F64CE302",
+        "LimitedWork": "ZQ:F64_RUNSTA_XG",
+        "fault": "ZQ:F64_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F65WORKMOD",
+        "name": "F65",
+        "rfdl": "ZQ:F65DCE901FD",
+        "speed": "ZQ:F65WSPEED",
+        "y_power": "ZQ:F65CE301",
+        "w_power": "ZQ:F65CE302",
+        "LimitedWork": "ZQ:F65_RUNSTA_XG",
+        "fault": "ZQ:F65_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F66WORKMOD",
+        "name": "F66",
+        "rfdl": "ZQ:F66DCE901FD",
+        "speed": "ZQ:F66WSPEED",
+        "y_power": "ZQ:F66CE301",
+        "w_power": "ZQ:F66CE302",
+        "LimitedWork": "ZQ:F66_RUNSTA_XG",
+        "fault": "ZQ:F66_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F67WORKMOD",
+        "name": "F67",
+        "rfdl": "ZQ:F67DCE901FD",
+        "speed": "ZQ:F67WSPEED",
+        "y_power": "ZQ:F67CE301",
+        "w_power": "ZQ:F67CE302",
+        "LimitedWork": "ZQ:F67_RUNSTA_XG",
+        "fault": "ZQ:F67_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F68WORKMOD",
+        "name": "F68",
+        "rfdl": "ZQ:F68DCE901FD",
+        "speed": "ZQ:F68WSPEED",
+        "y_power": "ZQ:F68CE301",
+        "w_power": "ZQ:F68CE302",
+        "LimitedWork": "ZQ:F68_RUNSTA_XG",
+        "fault": "ZQ:F68_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F69WORKMOD",
+        "name": "F69",
+        "rfdl": "ZQ:F69DCE901FD",
+        "speed": "ZQ:F69WSPEED",
+        "y_power": "ZQ:F69CE301",
+        "w_power": "ZQ:F69CE302",
+        "LimitedWork": "ZQ:F69_RUNSTA_XG",
+        "fault": "ZQ:F69_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F70WORKMOD",
+        "name": "F70",
+        "rfdl": "ZQ:F70DCE901FD",
+        "speed": "ZQ:F70WSPEED",
+        "y_power": "ZQ:F70CE301",
+        "w_power": "ZQ:F70CE302",
+        "LimitedWork": "ZQ:F70_RUNSTA_XG",
+        "fault": "ZQ:F70_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F73WORKMOD",
+        "name": "F73",
+        "rfdl": "ZQ:F73DCE901FD",
+        "speed": "ZQ:F73WSPEED",
+        "y_power": "ZQ:F73CE301",
+        "w_power": "ZQ:F73CE302",
+        "LimitedWork": "ZQ:F73_RUNSTA_XG",
+        "fault": "ZQ:F73_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F74WORKMOD",
+        "name": "F74",
+        "rfdl": "ZQ:F74DCE901FD",
+        "speed": "ZQ:F74WSPEED",
+        "y_power": "ZQ:F74CE301",
+        "w_power": "ZQ:F74CE302",
+        "LimitedWork": "ZQ:F74_RUNSTA_XG",
+        "fault": "ZQ:F74_FAUL_STA"
+      },
+      {
+        "state": "ZQ:F75WORKMOD",
+        "name": "F75",
+        "rfdl": "ZQ:F75DCE901FD",
+        "speed": "ZQ:F75WSPEED",
+        "y_power": "ZQ:F75CE301",
+        "w_power": "ZQ:F75CE302",
+        "LimitedWork": "ZQ:F75_RUNSTA_XG",
+        "fault": "ZQ:F75_FAUL_STA"
+      }
+    ]
+  }
+]

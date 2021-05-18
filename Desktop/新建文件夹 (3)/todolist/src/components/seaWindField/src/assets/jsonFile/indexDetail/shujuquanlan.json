@@ -1,0 +1,182 @@
+{
+  "tongyong": [
+    {
+      "name": "无功功率",
+      "tag": "CE302",
+      "value": 0,
+      "unit": "kvt",
+      "isState": false
+    },
+    {
+      "name": "有功功率设定反馈",
+      "tag": "CE301S_B",
+      "value": 0,
+      "unit": "kvt",
+      "isState": false
+    },
+    {
+      "name": "无功功率设定反馈",
+      "tag": "CE302S_B",
+      "value": 0,
+      "unit": "kvt",
+      "isState": false
+    },
+    {
+      "name": "故障状态",
+      "tag": "_FAUL_STA",
+      "value": 0,
+      "unit": "",
+      "isState": true
+    }
+  ],
+  "bianjiang": [
+    {
+      "name": "叶片1实际桨距角",
+      "tag": "CV10002",
+      "value": 0,
+      "unit": "°",
+      "isState": false
+    },
+    {
+      "name": "叶片应变桨的角度",
+      "tag": "CV10001",
+      "value": 0,
+      "unit": "°",
+      "isState": false
+    },
+    {
+      "name": "叶片2实际桨距角",
+      "tag": "CV10003",
+      "value": 0,
+      "unit": "°",
+      "isState": false
+    },
+    {
+      "name": "叶片3实际桨距角",
+      "tag": "CV10004",
+      "value": 0,
+      "unit": "°",
+      "isState": false
+    }
+  ],
+  "jiaoliuqi": [
+    {
+      "name": "变流器内温度",
+      "tag": "BLQ_TEMP",
+      "value": 0,
+      "unit": "℃",
+      "isState": false
+    },
+    {
+      "name": "A相相电压",
+      "tag": "CE20001",
+      "value": 0,
+      "unit": "V",
+      "isState": false
+    },
+    {
+      "name": "B相相电压",
+      "tag": "CE20002",
+      "value": 0,
+      "unit": "V",
+      "isState": false
+    },
+    {
+      "name": "C相相电压",
+      "tag": "CE20003",
+      "value": 0,
+      "unit": "V",
+      "isState": false
+    }
+  ],
+  "chuandong": [
+    {
+      "name": "齿轮箱高速轴前端温度",
+      "tag": "CLX_TEMP1",
+      "value": 0,
+      "unit": "℃",
+      "isState": false
+    },
+    {
+      "name": "齿轮箱高速轴后端温度",
+      "tag": "CLX_TEMP2",
+      "value": 0,
+      "unit": "℃",
+      "isState": false
+    },
+    {
+      "name": "齿轮箱油温度",
+      "tag": "CLX_TEMP3",
+      "value": 0,
+      "unit": "℃",
+      "isState": false
+    },
+    {
+      "name": "齿轮箱进口油温",
+      "tag": "CLX_TEMP4",
+      "value": 0,
+      "unit": "℃",
+      "isState": false
+    }
+  ],
+  "jicang": [
+    {
+      "name": "风速",
+      "tag": "WSPEED",
+      "value": 0,
+      "unit": "m/s",
+      "isState": false
+    },
+    {
+      "name": "#1风速计瞬时风速",
+      "tag": "INS_SPD1",
+      "value": 0,
+      "unit": "m/s",
+      "isState": false
+    },
+    {
+      "name": "环境温度",
+      "tag": "AMB_TEM",
+      "value": 0,
+      "unit": "℃",
+      "isState": false
+    },
+    {
+      "name": "偏航方位角",
+      "tag": "ANGLE_PH",
+      "value": 0,
+      "unit": "°",
+      "isState": false
+    }
+  ],
+  "fadianji": [
+    {
+      "name": "发电机转速",
+      "tag": "FDJ_SPEED",
+      "value": 0,
+      "unit": "rpm",
+      "isState": false
+    },
+    {
+      "name": "发电机转矩",
+      "tag": "FDJ_TOR",
+      "value": 0,
+      "unit": "N.m",
+      "isState": false
+    },
+    {
+      "name": "发电机绕组温度U1",
+      "tag": "FDJ_TEMP2",
+      "value": 0,
+      "unit": "℃",
+      "isState": false
+    },
+    {
+      "name": "发电机绕组温度U2",
+      "tag": "FDJ_TEMP3",
+      "value": 0,
+      "unit": "℃",
+      "isState": false
+    }
+  ]
+}

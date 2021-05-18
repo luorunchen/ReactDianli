@@ -9,10 +9,10 @@ import App from './App';
 
 //渲染App到页面
 ReactDOM.render(
-  <React.StrictMode>
+  // <React.StrictMode>
 
-    <App />
-  </React.StrictMode>,
+  <App />,
+  // </React.StrictMode>
   document.getElementById('root')
 );
 

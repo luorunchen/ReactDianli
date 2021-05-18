@@ -1,0 +1,138 @@
+[
+  {
+    "name": "发电机转速",
+    "value": 0,
+    "unit": "rpm",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valFDJ_SPEED"
+  },
+  {
+    "name": "发电机转矩",
+    "value": 0,
+    "unit": "N.m",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valFDJ_TOR"
+  },
+  {
+    "name": "发电机绕组温度U1",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valFDJ_TEMP2"
+  },
+  {
+    "name": "发电机绕组温度U2",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valFDJ_TEMP3"
+  },
+  {
+    "name": "发电机绕组温度v1",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valFDJ_TEMP4"
+  },
+  {
+    "name": "发电机绕组温度V2",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valFDJ_TEMP5"
+  },
+  {
+    "name": "发电机绕组温度w1",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valFDJ_TEMP6"
+  },
+  {
+    "name": "发电机绕组温度w2",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valFDJ_TEMP7"
+  },
+  {
+    "name": "发电机前轴承温度",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valFDJ_TEMP9"
+  },
+  {
+    "name": "发电机冷却水温度",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valFDJ_TEMP8"
+  },
+  {
+    "name": "发电机后轴承温度",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valFDJ_TEMP10"
+  },
+  {
+    "name": "发电机滑环室温度",
+    "value": 0,
+    "unit": "℃",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valFDJ_TEMP11"
+  },
+  {
+    "name": "发电机运行",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valFDJ_RUN"
+  },
+  {
+    "name": "发电机冷却水泵",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valFDJ_P_CL"
+  },
+  {
+    "name": "发电机滑环风扇",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valFDJ_F_RH"
+  },
+  {
+    "name": "发电机滑环加热",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": true,
+    "tagName": "ZQ:valHEATER_RH"
+  },
+  {
+    "name": "发电机润滑泵",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valPUMP_RH"
+  }
+]

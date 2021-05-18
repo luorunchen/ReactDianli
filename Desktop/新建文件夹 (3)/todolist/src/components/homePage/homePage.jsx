@@ -1,15 +1,19 @@
-import React, { Component } from "react";
-import { Row, Col, Space, Table, Timeline } from "antd";
+import React, { Component, useState } from "react";
+import { Row, Col, Modal, Table, Timeline, Button, Input, Upload } from "antd";
+
+// import ImgCrop from "antd-img-crop";
 
 import { ClockCircleOutlined, ToolOutlined } from "@ant-design/icons";
 import * as echarts from "echarts";
 import "./homePage.css";
+import TerminalInformation from "../TerminalInformation/TerminalInformation";
 import {
   alarmTop10,
   alarmLately10,
   pushStatistics,
   pushAlarmType,
   alarmTopByDay,
+  projectHome,
 } from "../../api";
 export default class homePage extends Component {
   constructor(props) {
@@ -17,9 +21,10 @@ export default class homePage extends Component {
     this.state = {
       alarmTop10List: [],
       alarmLately10List: [],
+      getDid: "",
     };
   }
-  componentDidMount() {
+  async componentDidMount() {
     let list = [];
     const userName = sessionStorage.getItem("userName");
     // 最多10次报警
@@ -213,7 +218,20 @@ export default class homePage extends Component {
         ],
       });
     });
+    let citys = [];
+    await projectHome(userName).then((res) => {
+      console.log(res.data, "//////////////////////");
 
+      res.data.list.forEach((el, index) => {
+        console.log(el);
+        let a = el.longitude.split(",");
+        citys.push({
+          lnglat: [a[0] * 1, a[1] * 1],
+          style: el.aPid == "" ? 0 : 1,
+        });
+      });
+    });
+    console.log(citys, 6666666666);
     var map = new AMap.Map("map", {
       resizeEnable: true, //是否监控地图容器尺寸变化
       zoom: 11, //初始化地图层级
@@ -225,23 +243,163 @@ export default class homePage extends Component {
         new AMap.TileLayer.RoadNet(),
       ], //初始化地图中心点
     });
+    var style = [
+      {
+        url: "https://a.amap.com/jsapi_demos/static/images/mass0.png",
+        anchor: new AMap.Pixel(6, 6),
+        size: new AMap.Size(20, 20),
+      },
+      {
+        url: "https://a.amap.com/jsapi_demos/static/images/mass1.png",
+        anchor: new AMap.Pixel(4, 4),
+        size: new AMap.Size(20, 20),
+      },
+      {
+        url: "https://a.amap.com/jsapi_demos/static/images/mass2.png",
+        anchor: new AMap.Pixel(3, 3),
+        size: new AMap.Size(5, 5),
+      },
+    ];
+    var mass = new AMap.MassMarks(citys, {
+      opacity: 0.8,
+      zIndex: 111,
+      cursor: "pointer",
+      style: style,
+    });
+
+    var marker = new AMap.Marker({ content: " ", map: map });
+
+    mass.on("mouseover", function (e) {
+      marker.setPosition(e.data.lnglat);
+      marker.setLabel({ content: e.data.name });
+    });
+
+    mass.setMap(map);
   }
   // componentWillMount() {}
   render() {
-    // const dataSource = [
-    //   {
-    //     key: "1",
-    //     name: "胡彦斌",
-    //     age: 32,
-    //     address: "西湖区湖底公园1号",
-    //   },
-    //   {
-    //     key: "2",
-    //     name: "胡彦祖",
-    //     age: 42,
-    //     address: "西湖区湖底公园1号",
-    //   },
-    // ];
+    const App = () => {
+      const [isModalVisible, setIsModalVisible] = useState(false);
+      const [visible, setVisible] = useState(false);
+      const showModal = (did) => {
+        this.state.getDid = did;
+        setIsModalVisible(true);
+      };
+      const visibleShow = (did) => {
+        this.state.getDid = did;
+        setVisible(true);
+      };
+
+      return (
+        <>
+          <Timeline
+            style={{
+              color: "#fff",
+              marginTop: "20px",
+              fontSize: "16px",
+            }}
+          >
+            {this.state.alarmLately10List.map((item, index) => {
+              return (
+                <Timeline.Item
+                  key={index}
+                  dot={
+                    <ClockCircleOutlined
+                      style={{
+                        color: "#17bc76",
+                      }}
+                    />
+                  }
+                >
+                  <p onClick={() => visibleShow(item.did)}>
+                    <span style={{ color: "#17bc76" }}>{item.alarmDate}</span>
+                    <ToolOutlined /> 处理
+                  </p>
+                  <div onClick={() => showModal(item.did)}>
+                    <p> 设备编号:{item.imei} </p>
+                    <p> 设备名称:{item.device_name} </p>
+                    <p> 设备类型:{item.dType} </p>
+                    <p> 报警值:{item.alarmValue} </p>
+                  </div>
+                </Timeline.Item>
+              );
+            })}
+          </Timeline>
+          {/* <Button type="primary">Open Modal</Button> */}
+          {/* 终端信息弹窗 */}
+          <Modal
+            width={1200}
+            title="终端信息"
+            visible={isModalVisible}
+            onOk={() => {
+              setIsModalVisible(false);
+            }}
+            onCancel={() => {
+              setIsModalVisible(false);
+            }}
+            footer={null}
+          >
+            <TerminalInformation getDid={this.state.getDid} />
+          </Modal>
+          {/* 处理弹窗 */}
+          <Modal
+            width={500}
+            title="设备报警处理 "
+            visible={visible}
+            onOk={() => {
+              setVisible(false);
+            }}
+            onCancel={() => {
+              setVisible(false);
+            }}
+            okText="报警解除"
+            okType="danger"
+            // footer={null}
+          >
+            <p> 设备名称：</p>
+            <Input />
+            <p> 内容：</p>
+
+            <Input.TextArea rows={4} />
+            <Demo />
+          </Modal>
+        </>
+      );
+    };
+    const Demo = () => {
+      const [fileList, setFileList] = useState([]);
+
+      const onChange = ({ fileList: newFileList }) => {
+        setFileList(newFileList);
+      };
+
+      const onPreview = async (file) => {
+        let src = file.url;
+        if (!src) {
+          src = await new Promise((resolve) => {
+            const reader = new FileReader();
+            reader.readAsDataURL(file.originFileObj);
+            reader.onload = () => resolve(reader.result);
+          });
+        }
+        const image = new Image();
+        image.src = src;
+        const imgWindow = window.open(src);
+        imgWindow.document.write(image.outerHTML);
+      };
+
+      return (
+        <Upload
+          action="http://121.36.6.48/dianLi/upload"
+          listType="picture-card"
+          fileList={fileList}
+          onChange={onChange}
+          onPreview={onPreview}
+        >
+          {fileList.length < 4 && "+ 上传图片"}
+        </Upload>
+      );
+    };
 
     const columns = [
       {
@@ -289,6 +447,7 @@ export default class homePage extends Component {
                 <div className="info" style={{ marginTop: "30px" }}>
                   <div className="infoCopy">
                     <div className="infoTitle">设备统计</div>
+
                     <Row>
                       <Col span={11}>
                         <div id="equipmentStatistics_left"></div>
@@ -325,40 +484,7 @@ export default class homePage extends Component {
               <div className="infoAlarmCopy">
                 <div className="infoTitle">最近10次报警</div>
                 <div className="scroll">
-                  <Timeline
-                    style={{
-                      color: "#fff",
-                      marginTop: "20px",
-                      fontSize: "16px",
-                    }}
-                  >
-                    {this.state.alarmLately10List.map((item, index) => {
-                      return (
-                        <Timeline.Item
-                          key={index}
-                          dot={
-                            <ClockCircleOutlined
-                              style={{
-                                color: "#17bc76",
-                              }}
-                            />
-                          }
-                        >
-                          <p>
-                            {" "}
-                            <span style={{ color: "#17bc76" }}>
-                              {item.alarmDate}
-                            </span>{" "}
-                            <ToolOutlined /> 处理
-                          </p>
-                          <p> 设备编号:{item.imei} </p>
-                          <p> 设备名称:{item.device_name} </p>
-                          <p> 设备类型:{item.dType} </p>
-                          <p> 报警值:{item.alarmValue} </p>
-                        </Timeline.Item>
-                      );
-                    })}
-                  </Timeline>
+                  <App />
                 </div>
               </div>
             </div>

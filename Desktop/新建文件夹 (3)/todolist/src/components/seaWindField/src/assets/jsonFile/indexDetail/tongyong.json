@@ -1,0 +1,130 @@
+[
+  {
+    "name": "无功功率",
+    "value": 0,
+    "unit": "kvr",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valCE302"
+  },
+  {
+    "name": "有功功率设定反馈",
+    "value": 0,
+    "unit": "kW",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valCE301S_B"
+  },
+  {
+    "name": "有功功率设定",
+    "value": 0,
+    "unit": "kW",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valCE301SET"
+  },
+  {
+    "name": "无功功率设定反馈",
+    "value": 0,
+    "unit": "kvr",
+    "isState": false,
+    "negation": false,
+    "tagName": "ZQ:valCE302S_B"
+  },
+  {
+    "name": "故障状态",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": true,
+    "tagName": "ZQ:val_FAUL_STA"
+  },
+  {
+    "name": "并网",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valGRID_W_OL"
+  },
+  {
+    "name": "限功运行状态",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:val_RUNSTA_XG"
+  },
+  {
+    "name": "远方限功运行状态",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valAT_XG_STA"
+  },
+  {
+    "name": "机组自身限功运行状态",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valBLO_XG_STA"
+  },
+  {
+    "name": "风暴停机状态",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valS_FB_STA"
+  },
+  {
+    "name": "机组停机自检",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": ""
+  },
+  {
+    "name": "LVRT功能开启",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": ""
+  },
+  {
+    "name": "LVRT功能使能状态反馈值",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valLVRT_STA"
+  },
+  {
+    "name": "高压穿越HVRT事件激活",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": ""
+  },
+  {
+    "name": "安全链断开",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valS_CH_DIS"
+  },
+  {
+    "name": "环境温度过低",
+    "value": 0,
+    "unit": "",
+    "isState": true,
+    "negation": false,
+    "tagName": "ZQ:valAMB_TEM_L"
+  }
+]

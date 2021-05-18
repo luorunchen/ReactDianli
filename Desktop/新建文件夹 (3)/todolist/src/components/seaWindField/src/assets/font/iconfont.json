@@ -1,0 +1,359 @@
+{
+  "id": "1762543",
+  "name": "HSFD-ZQ-中国海装风场监控系统",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "14658559",
+      "name": "变桨信息",
+      "font_class": "bianjiangxinxi",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    },
+    {
+      "icon_id": "14658560",
+      "name": "其他信息",
+      "font_class": "qitaxinxi",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "14658561",
+      "name": "基本信息",
+      "font_class": "jibenxinxi",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "14658562",
+      "name": "发电信息",
+      "font_class": "fadianxinxi",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "14235142",
+      "name": "启动",
+      "font_class": "qidong",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "14235143",
+      "name": "停机",
+      "font_class": "tingji",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "14235146",
+      "name": "控制",
+      "font_class": "kongzhi",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "14235148",
+      "name": "复位",
+      "font_class": "fuwei",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "14235150",
+      "name": "锁定",
+      "font_class": "suoding",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "14229290",
+      "name": "发电机",
+      "font_class": "fadianji",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "14229294",
+      "name": "变桨",
+      "font_class": "bianjiang",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "14229297",
+      "name": "传动",
+      "font_class": "chuandong",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "14229298",
+      "name": "风机型号",
+      "font_class": "fengjixinghao",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "14229304",
+      "name": "总发电量",
+      "font_class": "zongfadianliang",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "14229307",
+      "name": "机舱＆偏航",
+      "font_class": "jicangpianhang",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "14229310",
+      "name": "风向",
+      "font_class": "fengxiang",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "14229312",
+      "name": "风速",
+      "font_class": "fengsu",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "14229313",
+      "name": "通用",
+      "font_class": "tongyong",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "14229319",
+      "name": "有功功率",
+      "font_class": "yougonggongshuai",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "14229320",
+      "name": "交流器＆电网",
+      "font_class": "jiaoliuqidianwang",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "14229331",
+      "name": "风机状态",
+      "font_class": "fengjizhuangtai",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "14225526",
+      "name": "返回按钮",
+      "font_class": "fanhuianniu",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "14162717",
+      "name": "下载",
+      "font_class": "xiazai",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "14162718",
+      "name": "下拉按钮",
+      "font_class": "xialaanniu",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "14162719",
+      "name": "菜单-数据查询",
+      "font_class": "caidan-shujuchaxun",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "14162720",
+      "name": "菜单-系统报表",
+      "font_class": "caidan-xitongbaobiao",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "14162721",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "14162722",
+      "name": "首页切换图标1",
+      "font_class": "shouyeqiehuantubiao1",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "14162723",
+      "name": "最大化",
+      "font_class": "zuidahua",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "14162724",
+      "name": "提醒按钮",
+      "font_class": "tixinganniu",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "14162725",
+      "name": "菜单-展开线条",
+      "font_class": "caidan-zhankaixiantiao",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "14162726",
+      "name": "时间",
+      "font_class": "shijian",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "14162727",
+      "name": "用户图标",
+      "font_class": "yonghutubiao",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "14162728",
+      "name": "首页切换图标3",
+      "font_class": "shouyeqiehuantubiao3",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "14162729",
+      "name": "刷新",
+      "font_class": "shuaxin",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "14162702",
+      "name": "标题图标",
+      "font_class": "biaotitubiao",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "14162703",
+      "name": "菜单-收回",
+      "font_class": "caidan-shouhui",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "14162704",
+      "name": "菜单-设备报警",
+      "font_class": "caidan-shebeibaojing",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "14162705",
+      "name": "菜单-收回菜单",
+      "font_class": "caidan-shouhuicaidan",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "14162706",
+      "name": "菜单-下拉",
+      "font_class": "caidan-xiala",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "14162707",
+      "name": "菜单-选中图表",
+      "font_class": "caidan-xuanzhongtubiao",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "14162708",
+      "name": "菜单-系统设置",
+      "font_class": "caidan-xitongshezhi",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "14162709",
+      "name": "菜单-展开菜单",
+      "font_class": "caidan-zhankaicaidan",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "14162710",
+      "name": "导出",
+      "font_class": "daochu",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "14162711",
+      "name": "测点选择",
+      "font_class": "cedianxuanze",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "14162712",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "14162713",
+      "name": "确定",
+      "font_class": "queding",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "14162714",
+      "name": "首页切换图标2",
+      "font_class": "shouyeqiehuantubiao2",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "14162715",
+      "name": "确认全部告警",
+      "font_class": "querenquanbugaojing",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "14162716",
+      "name": "菜单-实时监控",
+      "font_class": "caidan-shishijiankong",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    }
+  ]
+}
